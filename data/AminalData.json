@@ -1,0 +1,2226 @@
+[
+    {
+        "id": "6824cef2-0ea2-4a50-9cab-0cfc15b2ff43",
+        "animalType": "Cow",
+        "DOB": "12/11/2012",
+        "Health ": 2,
+        "latitude": 59.4226704,
+        "longitude": 17.8334683,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/19/2006",
+                "Name": "Cullin Collinson",
+                "medicalResaon": "Person boarding or alighting a pick-up truck or van injured in collision with two- or three-wheeled motor vehicle, sequela"
+            }
+        ]
+    },
+    {
+        "id": "35a1840b-646b-44ec-ab28-c94aaa20dd49",
+        "animalType": "Pig",
+        "DOB": "8/11/2014",
+        "Health ": 12,
+        "latitude": 38.400112,
+        "longitude": 114.866414,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/10/2018",
+                "Name": "Moishe Carlett",
+                "medicalResaon": "Displaced fracture of lesser tuberosity of unspecified humerus, subsequent encounter for fracture with nonunion"
+            },
+            {
+                "recordDate ": "6/29/2013",
+                "Name": "Fons Thominga",
+                "medicalResaon": "Rheumatoid nodule, right shoulder"
+            },
+            {
+                "recordDate ": "7/2/2008",
+                "Name": "Roddie Huntall",
+                "medicalResaon": "Pigmentary glaucoma, right eye, stage unspecified"
+            }
+        ]
+    },
+    {
+        "id": "f7c38d0a-64fd-4b01-9b47-48145dac855b",
+        "animalType": "Pig",
+        "DOB": "4/8/2008",
+        "Health ": 71,
+        "latitude": 6.4387946,
+        "longitude": 100.1947477,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/3/2019",
+                "Name": "Matthus Kenington",
+                "medicalResaon": "Nondisplaced fracture of pisiform, left wrist, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "2/27/2020",
+                "Name": "Wake Giercke",
+                "medicalResaon": "Displaced Maisonneuve's fracture of right leg, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "10/23/2007",
+                "Name": "Ruth Keher",
+                "medicalResaon": "Crushed between fishing boat and other watercraft or other object due to collision"
+            },
+            {
+                "recordDate ": "6/5/2005",
+                "Name": "Elga Scrane",
+                "medicalResaon": "Unspecified occupant of pick-up truck or van injured in collision with other nonmotor vehicle in nontraffic accident, sequela"
+            },
+            {
+                "recordDate ": "9/7/2021",
+                "Name": "Glenn Rackam",
+                "medicalResaon": "Pathological fracture, unspecified foot"
+            }
+        ]
+    },
+    {
+        "id": "f08dcb14-56bf-48f1-b124-74200a8b5ea3",
+        "animalType": "Pig",
+        "DOB": "2/5/2008",
+        "Health ": 46,
+        "latitude": 23.131797,
+        "longitude": 113.407143,
+        "medicalHistory": []
+    },
+    {
+        "id": "9f4a9600-39e2-4eea-868f-fc9e9307abf2",
+        "animalType": "Pig",
+        "DOB": "5/28/2004",
+        "Health ": 36,
+        "latitude": 52.176031,
+        "longitude": -6.5899765,
+        "medicalHistory": []
+    },
+    {
+        "id": "5742f584-c273-471a-a7be-119a65a44b58",
+        "animalType": "Cow",
+        "DOB": "12/31/2003",
+        "Health ": 95,
+        "latitude": 31.284181,
+        "longitude": 119.160586,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/3/2012",
+                "Name": "Emerson Livesey",
+                "medicalResaon": "Other hang-glider accident injuring occupant"
+            }
+        ]
+    },
+    {
+        "id": "fcb8f389-4ff2-4f78-898d-362a03096422",
+        "animalType": "Pig",
+        "DOB": "1/17/2021",
+        "Health ": 40,
+        "latitude": 38.2911575,
+        "longitude": -0.6322615,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/1/2019",
+                "Name": "Tana Rivallant",
+                "medicalResaon": "Burn of third degree of multiple left fingers (nail), including thumb"
+            },
+            {
+                "recordDate ": "3/31/2018",
+                "Name": "Sal Werrit",
+                "medicalResaon": "Other superficial bite of right little finger, sequela"
+            }
+        ]
+    },
+    {
+        "id": "6f5dbd91-e8b1-45cb-9a28-c3073308c171",
+        "animalType": "Sheep",
+        "DOB": "10/7/2002",
+        "Health ": 5,
+        "latitude": 40.9428723,
+        "longitude": -8.4397044,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/18/2014",
+                "Name": "Burke Heber",
+                "medicalResaon": "Contact with transmission devices, not elsewhere classified, initial encounter"
+            },
+            {
+                "recordDate ": "4/20/2010",
+                "Name": "Elias Heyworth",
+                "medicalResaon": "Other traumatic nondisplaced spondylolisthesis of third cervical vertebra, subsequent encounter for fracture with routine healing"
+            },
+            {
+                "recordDate ": "7/9/2010",
+                "Name": "Konstance Trillow",
+                "medicalResaon": "Traumatic subdural hemorrhage with loss of consciousness of 31 minutes to 59 minutes, initial encounter"
+            },
+            {
+                "recordDate ": "2/7/2008",
+                "Name": "Lilah Ruby",
+                "medicalResaon": "Toxic effect of latex, assault, initial encounter"
+            },
+            {
+                "recordDate ": "12/24/2012",
+                "Name": "Sayers Ohms",
+                "medicalResaon": "Burn of third degree of ankle and foot"
+            }
+        ]
+    },
+    {
+        "id": "80912bf8-4c79-4396-a123-d6be4e0cccd3",
+        "animalType": "Sheep",
+        "DOB": "11/19/2013",
+        "Health ": 24,
+        "latitude": 18.5382815,
+        "longitude": -72.5293562,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/20/2011",
+                "Name": "Kendell Shewring",
+                "medicalResaon": "Injury of unspecified blood vessel at neck level, subsequent encounter"
+            },
+            {
+                "recordDate ": "12/27/2007",
+                "Name": "Coralie Tooley",
+                "medicalResaon": "Galeazzi's fracture of left radius, initial encounter for open fracture type I or II"
+            },
+            {
+                "recordDate ": "11/1/2007",
+                "Name": "Aguistin Lorriman",
+                "medicalResaon": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, right eye"
+            },
+            {
+                "recordDate ": "7/11/2013",
+                "Name": "Carlee Druery",
+                "medicalResaon": "Injury of unspecified uterine vein, sequela"
+            }
+        ]
+    },
+    {
+        "id": "806df58a-dec9-4b6e-b69d-600f7df1c188",
+        "animalType": "Pig",
+        "DOB": "6/10/2004",
+        "Health ": 92,
+        "latitude": -11.4389649,
+        "longitude": 34.0084395,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/27/2013",
+                "Name": "Aguistin Houson",
+                "medicalResaon": "Displaced fracture of head of unspecified radius, subsequent encounter for closed fracture with malunion"
+            },
+            {
+                "recordDate ": "7/22/2016",
+                "Name": "Issi Cadagan",
+                "medicalResaon": "Active stage of trachoma"
+            }
+        ]
+    },
+    {
+        "id": "2c366a4b-37cf-4472-9987-f590ab843bf1",
+        "animalType": "Cow",
+        "DOB": "11/29/2007",
+        "Health ": 19,
+        "latitude": 53.1458749,
+        "longitude": 20.8157058,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/31/2016",
+                "Name": "Trenton Rudd",
+                "medicalResaon": "Pedal cycle driver injured in collision with fixed or stationary object in traffic accident, initial encounter"
+            },
+            {
+                "recordDate ": "9/10/2017",
+                "Name": "Consolata Vakhlov",
+                "medicalResaon": "Malignant neoplasm of greater curvature of stomach, unspecified"
+            },
+            {
+                "recordDate ": "1/5/2022",
+                "Name": "Iain Grolmann",
+                "medicalResaon": "Superficial frostbite of unspecified ear, initial encounter"
+            },
+            {
+                "recordDate ": "10/23/2014",
+                "Name": "Opaline Risley",
+                "medicalResaon": "Caisson disease [decompression sickness], sequela"
+            }
+        ]
+    },
+    {
+        "id": "b81592dc-2264-4ff2-aeb8-42cf0e730df5",
+        "animalType": "Sheep",
+        "DOB": "7/2/2012",
+        "Health ": 72,
+        "latitude": 38.0113874,
+        "longitude": 23.6027231,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/14/2013",
+                "Name": "Aleta Rivenzon",
+                "medicalResaon": "Posterior dislocation of left humerus, subsequent encounter"
+            },
+            {
+                "recordDate ": "11/14/2017",
+                "Name": "Shanta Purveys",
+                "medicalResaon": "Displaced transverse fracture of shaft of right radius, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"
+            }
+        ]
+    },
+    {
+        "id": "e649faa8-9c3f-4a90-9f60-e0884b070cdc",
+        "animalType": "Pig",
+        "DOB": "2/22/2005",
+        "Health ": 1,
+        "latitude": 19.6925744,
+        "longitude": -72.017927,
+        "medicalHistory": [
+            {
+                "recordDate ": "9/11/2017",
+                "Name": "Andriette Bloore",
+                "medicalResaon": "Toxic effect of beryllium and its compounds, accidental (unintentional), sequela"
+            },
+            {
+                "recordDate ": "1/31/2011",
+                "Name": "Vally Heinrich",
+                "medicalResaon": "Accidental puncture and laceration of unspecified eye and adnexa during other procedure"
+            }
+        ]
+    },
+    {
+        "id": "a1f9cf59-5bed-4e98-8249-18862f4b65c1",
+        "animalType": "Cow",
+        "DOB": "12/15/2013",
+        "Health ": 13,
+        "latitude": 23.961903,
+        "longitude": 106.762807,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/15/2008",
+                "Name": "Sylvia Rumsey",
+                "medicalResaon": "Unspecified sprain of unspecified great toe, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "1fcc7754-b3e5-4a5c-beef-2c82fcb2a02f",
+        "animalType": "Sheep",
+        "DOB": "10/13/2014",
+        "Health ": 94,
+        "latitude": 44.128014,
+        "longitude": 18.1178262,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/1/2017",
+                "Name": "Dar Francom",
+                "medicalResaon": "Displaced comminuted fracture of shaft of ulna, right arm, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "11/27/2005",
+                "Name": "Grannie Joist",
+                "medicalResaon": "Exposure of implanted urethral bulking agent into urethra, subsequent encounter"
+            },
+            {
+                "recordDate ": "1/21/2013",
+                "Name": "Nels Dedam",
+                "medicalResaon": "Poisoning by other antacids and anti-gastric-secretion drugs, accidental (unintentional), sequela"
+            },
+            {
+                "recordDate ": "8/17/2014",
+                "Name": "Kristofor Keepin",
+                "medicalResaon": "Intentional self-harm by drowning and submersion in natural water"
+            }
+        ]
+    },
+    {
+        "id": "830fcb0d-0fa7-4b17-a80b-b71118a041db",
+        "animalType": "Cow",
+        "DOB": "12/14/2001",
+        "Health ": 69,
+        "latitude": -11.2648012,
+        "longitude": -75.6491753,
+        "medicalHistory": [
+            {
+                "recordDate ": "12/23/2012",
+                "Name": "Shawna Degoix",
+                "medicalResaon": "Other myositis, thigh"
+            },
+            {
+                "recordDate ": "1/26/2019",
+                "Name": "Trstram Ernke",
+                "medicalResaon": "Noninfective disorders of pinna, bilateral"
+            },
+            {
+                "recordDate ": "3/17/2006",
+                "Name": "Charin Caltera",
+                "medicalResaon": "Other fracture of upper end of unspecified ulna, sequela"
+            }
+        ]
+    },
+    {
+        "id": "6f409094-4995-455d-8a88-a5b32d028129",
+        "animalType": "Cow",
+        "DOB": "8/17/2021",
+        "Health ": 48,
+        "latitude": 47.3591366,
+        "longitude": 2.8002946,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/3/2021",
+                "Name": "Tiena Shovelbottom",
+                "medicalResaon": "Other ice-skates accident, sequela"
+            }
+        ]
+    },
+    {
+        "id": "4af18d3c-d7b9-433b-bac7-0ef274ce32ad",
+        "animalType": "Pig",
+        "DOB": "2/8/2008",
+        "Health ": 90,
+        "latitude": 30.548268,
+        "longitude": 112.279606,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/28/2022",
+                "Name": "Katrine Applewhaite",
+                "medicalResaon": "Laceration of lesser saphenous vein at lower leg level, unspecified leg"
+            },
+            {
+                "recordDate ": "12/25/2011",
+                "Name": "Mavra Normabell",
+                "medicalResaon": "Person on outside of ambulance or fire engine injured in traffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "4/25/2012",
+                "Name": "Sansone Fleote",
+                "medicalResaon": "Traumatic hemopneumothorax"
+            },
+            {
+                "recordDate ": "11/24/2016",
+                "Name": "Bert Christofol",
+                "medicalResaon": "Breakdown (mechanical) of prosthetic orbit of left eye"
+            },
+            {
+                "recordDate ": "6/13/2012",
+                "Name": "Doe Jeanenet",
+                "medicalResaon": "Dislocation of jaw, bilateral"
+            }
+        ]
+    },
+    {
+        "id": "c468260b-f14b-4812-9c68-c79d988c5b8c",
+        "animalType": "Pig",
+        "DOB": "10/30/2015",
+        "Health ": 93,
+        "latitude": 9.3226016,
+        "longitude": 13.393389,
+        "medicalHistory": [
+            {
+                "recordDate ": "12/17/2013",
+                "Name": "Joshuah Blodg",
+                "medicalResaon": "Other chronic hematogenous osteomyelitis, ankle and foot"
+            },
+            {
+                "recordDate ": "11/21/2012",
+                "Name": "Thedrick Kennaway",
+                "medicalResaon": "External constriction, right foot, sequela"
+            },
+            {
+                "recordDate ": "7/10/2020",
+                "Name": "Marcia Purves",
+                "medicalResaon": "Assault by drowning and submersion, unspecified"
+            },
+            {
+                "recordDate ": "8/11/2019",
+                "Name": "Nina Di Domenico",
+                "medicalResaon": "Alcohol use complicating pregnancy, childbirth, and the puerperium"
+            }
+        ]
+    },
+    {
+        "id": "dbb208a5-9a5a-4018-bb18-fdc28184d205",
+        "animalType": "Sheep",
+        "DOB": "6/28/2017",
+        "Health ": 49,
+        "latitude": 35.7,
+        "longitude": 10.8,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/23/2007",
+                "Name": "Laughton Cosslett",
+                "medicalResaon": "Exudative age-related macular degeneration, bilateral, with inactive choroidal neovascularization"
+            },
+            {
+                "recordDate ": "6/25/2010",
+                "Name": "Vidovik Phillot",
+                "medicalResaon": "Car occupant injured in collision with other nonmotor vehicle"
+            },
+            {
+                "recordDate ": "5/2/2006",
+                "Name": "Letizia Du Barry",
+                "medicalResaon": "Other extraarticular fracture of lower end of left radius, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"
+            },
+            {
+                "recordDate ": "4/7/2019",
+                "Name": "Bendite Lehenmann",
+                "medicalResaon": "Terrorism involving destruction of aircraft, civilian injured, sequela"
+            }
+        ]
+    },
+    {
+        "id": "6a10b5c3-7608-4977-b131-b6bd7bde101b",
+        "animalType": "Pig",
+        "DOB": "7/29/2008",
+        "Health ": 49,
+        "latitude": 28.663694,
+        "longitude": 118.534841,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/10/2008",
+                "Name": "Scotti Heijnen",
+                "medicalResaon": "Nondisplaced fracture of olecranon process with intraarticular extension of right ulna, subsequent encounter for open fracture type I or II with nonunion"
+            },
+            {
+                "recordDate ": "8/5/2018",
+                "Name": "Hayley Lymbourne",
+                "medicalResaon": "Unspecified occupant of three-wheeled motor vehicle injured in noncollision transport accident in traffic accident"
+            }
+        ]
+    },
+    {
+        "id": "534dae39-6c5d-464a-9a8b-b7518b863305",
+        "animalType": "Cow",
+        "DOB": "6/22/2014",
+        "Health ": 31,
+        "latitude": 40.6230031,
+        "longitude": 19.4690444,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/5/2010",
+                "Name": "Sheelagh Caughtry",
+                "medicalResaon": "Subluxation of radiocarpal joint of left wrist"
+            },
+            {
+                "recordDate ": "10/5/2013",
+                "Name": "Dehlia Iacovucci",
+                "medicalResaon": "Nondisplaced fracture of neck of scapula, unspecified shoulder, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "5/13/2009",
+                "Name": "Brett Burgh",
+                "medicalResaon": "Anemia, unspecified"
+            }
+        ]
+    },
+    {
+        "id": "bd0aa9b8-016d-4fa2-b455-bad611d7c480",
+        "animalType": "Pig",
+        "DOB": "9/5/2002",
+        "Health ": 39,
+        "latitude": 44.0557303,
+        "longitude": -92.5253639,
+        "medicalHistory": []
+    },
+    {
+        "id": "3fae72b2-36e2-4b0b-bbf5-954998bccf29",
+        "animalType": "Cow",
+        "DOB": "7/14/2002",
+        "Health ": 59,
+        "latitude": 57.778556,
+        "longitude": 14.1619341,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/12/2010",
+                "Name": "Vincenty Skurray",
+                "medicalResaon": "Macrostomia"
+            },
+            {
+                "recordDate ": "9/18/2007",
+                "Name": "Corine Pomfrett",
+                "medicalResaon": "Cellulitis of corpus cavernosum and penis"
+            },
+            {
+                "recordDate ": "6/13/2005",
+                "Name": "Lindsy Jindra",
+                "medicalResaon": "Partial physeal arrest, right proximal humerus"
+            },
+            {
+                "recordDate ": "10/31/2013",
+                "Name": "Mitch Alman",
+                "medicalResaon": "Malignant neoplasm of placenta"
+            }
+        ]
+    },
+    {
+        "id": "674402d5-9ce4-4380-93d0-3f934e3e118f",
+        "animalType": "Cow",
+        "DOB": "7/25/2019",
+        "Health ": 33,
+        "latitude": 43.1520105,
+        "longitude": 126.4371385,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/1/2017",
+                "Name": "Goldarina Whelpdale",
+                "medicalResaon": "Hemorrhagic otitis externa, bilateral"
+            },
+            {
+                "recordDate ": "11/1/2008",
+                "Name": "Freddy Gusney",
+                "medicalResaon": "Benign neoplasm of lymph nodes"
+            },
+            {
+                "recordDate ": "8/11/2005",
+                "Name": "Amandi Lympany",
+                "medicalResaon": "Nondisplaced oblique fracture of shaft of left tibia, initial encounter for open fracture type I or II"
+            }
+        ]
+    },
+    {
+        "id": "ec127afb-15e5-4226-8e37-78512e160677",
+        "animalType": "Sheep",
+        "DOB": "12/16/2011",
+        "Health ": 4,
+        "latitude": -7.6568317,
+        "longitude": 110.3392399,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/25/2019",
+                "Name": "Mariel Buckham",
+                "medicalResaon": "Underdosing of unspecified agents primarily affecting the gastrointestinal system, sequela"
+            },
+            {
+                "recordDate ": "12/16/2014",
+                "Name": "Erminie Troup",
+                "medicalResaon": "Corrosion of third degree of unspecified multiple fingers (nail), not including thumb, sequela"
+            }
+        ]
+    },
+    {
+        "id": "80340640-633c-494c-baca-725cc8ec188a",
+        "animalType": "Cow",
+        "DOB": "9/16/2003",
+        "Health ": 79,
+        "latitude": 59.05729,
+        "longitude": 16.5763043,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/15/2016",
+                "Name": "Ami Biaggiotti",
+                "medicalResaon": "Unspecified open wound of thyroid gland, sequela"
+            },
+            {
+                "recordDate ": "8/7/2018",
+                "Name": "Archie Dales",
+                "medicalResaon": "Lead-induced chronic gout, unspecified hip, with tophus (tophi)"
+            },
+            {
+                "recordDate ": "9/19/2016",
+                "Name": "Annamarie Dadge",
+                "medicalResaon": "Unspecified open wound of vagina and vulva"
+            },
+            {
+                "recordDate ": "12/29/2017",
+                "Name": "Rici Skelhorne",
+                "medicalResaon": "Poisoning by, adverse effect of and underdosing of expectorants"
+            }
+        ]
+    },
+    {
+        "id": "1b3396b2-de92-48dd-adf2-78410488e4a0",
+        "animalType": "Sheep",
+        "DOB": "3/25/2006",
+        "Health ": 50,
+        "latitude": 15.6594009,
+        "longitude": 120.5306172,
+        "medicalHistory": []
+    },
+    {
+        "id": "e808ebde-8115-4b88-9ad5-a485a234611e",
+        "animalType": "Sheep",
+        "DOB": "2/2/2014",
+        "Health ": 77,
+        "latitude": 25.871681,
+        "longitude": 114.674065,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/19/2015",
+                "Name": "Mathew Mellodey",
+                "medicalResaon": "Insect bite (nonvenomous) of breast, left breast, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "caa344ad-3c0d-42ab-81b4-a056592ff567",
+        "animalType": "Sheep",
+        "DOB": "9/22/2000",
+        "Health ": 4,
+        "latitude": 3.2336472,
+        "longitude": 10.7295146,
+        "medicalHistory": []
+    },
+    {
+        "id": "2f992217-6033-426b-ad09-f553cfe31303",
+        "animalType": "Sheep",
+        "DOB": "9/17/2012",
+        "Health ": 24,
+        "latitude": 43.2082756,
+        "longitude": 46.0845137,
+        "medicalHistory": []
+    },
+    {
+        "id": "8f247d7a-ba5a-41fd-861b-076642dd953e",
+        "animalType": "Cow",
+        "DOB": "8/5/2019",
+        "Health ": 25,
+        "latitude": 38.491235,
+        "longitude": 111.033425,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/13/2009",
+                "Name": "Lincoln Paszak",
+                "medicalResaon": "Gestational [pregnancy-induced] edema and proteinuria without hypertension"
+            },
+            {
+                "recordDate ": "7/14/2010",
+                "Name": "Vernor Heinicke",
+                "medicalResaon": "Unspecified open wound of thyroid gland"
+            },
+            {
+                "recordDate ": "6/24/2015",
+                "Name": "Staci Rugge",
+                "medicalResaon": "Pathological fracture in neoplastic disease, unspecified site, subsequent encounter for fracture with malunion"
+            },
+            {
+                "recordDate ": "4/5/2009",
+                "Name": "Dulsea Kestle",
+                "medicalResaon": "Contusion and laceration of cerebrum, unspecified, without loss of consciousness"
+            },
+            {
+                "recordDate ": "1/9/2019",
+                "Name": "Alameda Godwyn",
+                "medicalResaon": "Terrorism involving suicide bomber, civilian injured, sequela"
+            }
+        ]
+    },
+    {
+        "id": "24c3d181-44b7-45e4-b511-18144c106bc4",
+        "animalType": "Sheep",
+        "DOB": "7/17/2003",
+        "Health ": 17,
+        "latitude": 53.3284298,
+        "longitude": -6.3048641,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/14/2017",
+                "Name": "Eamon Hamon",
+                "medicalResaon": "Bone marrow donor"
+            }
+        ]
+    },
+    {
+        "id": "49facb8c-3637-4778-83c4-73b11fcba6fc",
+        "animalType": "Cow",
+        "DOB": "8/20/2010",
+        "Health ": 42,
+        "latitude": 34.75,
+        "longitude": 10.78333,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/10/2020",
+                "Name": "Zack De Ortega",
+                "medicalResaon": "Toxic effect of other organic solvents, intentional self-harm"
+            }
+        ]
+    },
+    {
+        "id": "2126aed3-16c3-4fe9-ae5a-6ad8742c3517",
+        "animalType": "Sheep",
+        "DOB": "10/31/2002",
+        "Health ": 8,
+        "latitude": 57.7190929,
+        "longitude": 14.1817062,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/24/2007",
+                "Name": "Tedd Balint",
+                "medicalResaon": "Fracture of distal phalanx of thumb"
+            }
+        ]
+    },
+    {
+        "id": "8b2f754f-b712-48c8-b70f-2c2eca2c44f2",
+        "animalType": "Sheep",
+        "DOB": "12/15/2002",
+        "Health ": 12,
+        "latitude": -6.2948133,
+        "longitude": 106.7205154,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/3/2009",
+                "Name": "Collin Grimsdell",
+                "medicalResaon": "Benign neoplasm of unspecified part of mouth"
+            }
+        ]
+    },
+    {
+        "id": "1b6d9b46-16f0-4417-af93-210a88a82f3b",
+        "animalType": "Sheep",
+        "DOB": "8/2/2011",
+        "Health ": 58,
+        "latitude": 48.1164447,
+        "longitude": -1.7128603,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/22/2011",
+                "Name": "Vinny Lichtfoth",
+                "medicalResaon": "Dislocation of metacarpal (bone), proximal end of unspecified hand, initial encounter"
+            },
+            {
+                "recordDate ": "11/24/2020",
+                "Name": "Blisse Mapledoram",
+                "medicalResaon": "Factitial dermatitis"
+            },
+            {
+                "recordDate ": "2/2/2008",
+                "Name": "Kori Sustin",
+                "medicalResaon": "Other optic atrophy, unspecified eye"
+            },
+            {
+                "recordDate ": "8/18/2006",
+                "Name": "Sonnie Jarville",
+                "medicalResaon": "Retained (old) magnetic foreign body in lens, unspecified eye"
+            },
+            {
+                "recordDate ": "11/5/2022",
+                "Name": "Angelina Scotts",
+                "medicalResaon": "Poisoning by unspecified antidepressants, intentional self-harm, sequela"
+            }
+        ]
+    },
+    {
+        "id": "7e5e3f3a-a193-4f74-a373-1c5e8a22f96d",
+        "animalType": "Pig",
+        "DOB": "7/23/2020",
+        "Health ": 30,
+        "latitude": 41.11023,
+        "longitude": 20.0866554,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/6/2017",
+                "Name": "Kata Bloxsum",
+                "medicalResaon": "Open bite of right back wall of thorax without penetration into thoracic cavity"
+            }
+        ]
+    },
+    {
+        "id": "34bd4f35-433d-41f9-a582-63b18a08c2e0",
+        "animalType": "Cow",
+        "DOB": "7/26/2007",
+        "Health ": 93,
+        "latitude": -7.9636675,
+        "longitude": 112.6225104,
+        "medicalHistory": []
+    },
+    {
+        "id": "cd4ebd62-6b13-4a20-be04-072389b98f8d",
+        "animalType": "Cow",
+        "DOB": "5/5/2014",
+        "Health ": 55,
+        "latitude": 30.572815,
+        "longitude": 104.066801,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/28/2005",
+                "Name": "Lenard Deares",
+                "medicalResaon": "Laceration of lung, unspecified, subsequent encounter"
+            },
+            {
+                "recordDate ": "11/26/2017",
+                "Name": "Shayna Oakman",
+                "medicalResaon": "Other disorders of facial nerve"
+            },
+            {
+                "recordDate ": "6/21/2014",
+                "Name": "Nerita Ivakin",
+                "medicalResaon": "Laceration of muscle, fascia and tendon of the posterior muscle group at thigh level, right thigh"
+            },
+            {
+                "recordDate ": "4/5/2017",
+                "Name": "Linc Riccioppo",
+                "medicalResaon": "Adverse effect of antihyperlipidemic and antiarteriosclerotic drugs"
+            }
+        ]
+    },
+    {
+        "id": "74a44c3f-36e6-4f9b-a13b-a06b11d87e80",
+        "animalType": "Sheep",
+        "DOB": "12/7/2021",
+        "Health ": 85,
+        "latitude": 56.7679359,
+        "longitude": 37.5577219,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/20/2016",
+                "Name": "Oliver Brasner",
+                "medicalResaon": "Unspecified occupant of pick-up truck or van injured in collision with other nonmotor vehicle in traffic accident"
+            },
+            {
+                "recordDate ": "1/15/2017",
+                "Name": "Fancie Gascoyen",
+                "medicalResaon": "Drowning and submersion due to falling or jumping from burning merchant ship, sequela"
+            },
+            {
+                "recordDate ": "5/9/2008",
+                "Name": "Fransisco Lamps",
+                "medicalResaon": "Chorioamnionitis, unspecified trimester, not applicable or unspecified"
+            },
+            {
+                "recordDate ": "1/21/2017",
+                "Name": "Markus Doxey",
+                "medicalResaon": "Obstructed labor due to breech presentation"
+            }
+        ]
+    },
+    {
+        "id": "b2655718-08a2-49b2-94ec-77002fce6690",
+        "animalType": "Pig",
+        "DOB": "2/22/2010",
+        "Health ": 57,
+        "latitude": 56.7577875,
+        "longitude": 43.5378796,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/11/2021",
+                "Name": "Arlette Kellett",
+                "medicalResaon": "Bus occupant injured in collision with car, pick-up truck or van"
+            },
+            {
+                "recordDate ": "3/24/2021",
+                "Name": "Roobbie Willden",
+                "medicalResaon": "Observation and evaluation of newborn for suspected infectious condition ruled out"
+            },
+            {
+                "recordDate ": "5/9/2009",
+                "Name": "Durant Peskett",
+                "medicalResaon": "Rheumatoid arthritis without rheumatoid factor, ankle and foot"
+            },
+            {
+                "recordDate ": "12/4/2012",
+                "Name": "Gizela Pilgrim",
+                "medicalResaon": "Person injured in collision between railway train or railway vehicle and car, nontraffic, sequela"
+            }
+        ]
+    },
+    {
+        "id": "3c88d2c0-8bcb-4404-a23f-35f08629eae9",
+        "animalType": "Pig",
+        "DOB": "7/27/2018",
+        "Health ": 3,
+        "latitude": 25.416658,
+        "longitude": 115.935862,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/15/2021",
+                "Name": "Kip Willerton",
+                "medicalResaon": "Displaced comminuted fracture of shaft of right tibia, subsequent encounter for closed fracture with nonunion"
+            },
+            {
+                "recordDate ": "3/11/2006",
+                "Name": "Eleanora Talbot",
+                "medicalResaon": "Other rupture of muscle (nontraumatic), unspecified hand"
+            },
+            {
+                "recordDate ": "10/28/2013",
+                "Name": "Jay Opdenort",
+                "medicalResaon": "Displaced supracondylar fracture without intracondylar extension of lower end of left femur, subsequent encounter for closed fracture with malunion"
+            },
+            {
+                "recordDate ": "8/27/2016",
+                "Name": "Cloris Terram",
+                "medicalResaon": "Other ice-skates accident"
+            }
+        ]
+    },
+    {
+        "id": "b591101a-a573-4430-a9d2-166d629e5d59",
+        "animalType": "Pig",
+        "DOB": "10/1/2018",
+        "Health ": 62,
+        "latitude": 26.5368826,
+        "longitude": 99.5823095,
+        "medicalHistory": [
+            {
+                "recordDate ": "6/11/2016",
+                "Name": "Mala Dyton",
+                "medicalResaon": "Other cervical disc disorders,  high cervical region"
+            },
+            {
+                "recordDate ": "3/30/2008",
+                "Name": "Shea Baudoux",
+                "medicalResaon": "Displaced fracture of right ulna styloid process, subsequent encounter for closed fracture with delayed healing"
+            },
+            {
+                "recordDate ": "6/13/2011",
+                "Name": "Shirlene Reisenberg",
+                "medicalResaon": "Burn of first degree of right forearm, sequela"
+            }
+        ]
+    },
+    {
+        "id": "5cff98e3-4955-43bc-8ade-25408a343f2c",
+        "animalType": "Cow",
+        "DOB": "9/18/2002",
+        "Health ": 86,
+        "latitude": 14.1234415,
+        "longitude": -86.8697068,
+        "medicalHistory": []
+    },
+    {
+        "id": "28f7e4d9-786a-47b5-9bef-1e1e5e77aa39",
+        "animalType": "Pig",
+        "DOB": "7/26/2000",
+        "Health ": 11,
+        "latitude": 13.86667,
+        "longitude": 45.25,
+        "medicalHistory": []
+    },
+    {
+        "id": "1acdaf47-3b42-4fea-9923-0d99fe03592a",
+        "animalType": "Pig",
+        "DOB": "4/13/2001",
+        "Health ": 34,
+        "latitude": 39.928353,
+        "longitude": 116.416357,
+        "medicalHistory": []
+    },
+    {
+        "id": "be278c7e-0ed9-497b-941a-48db2cc9dbea",
+        "animalType": "Pig",
+        "DOB": "1/24/2008",
+        "Health ": 33,
+        "latitude": 24.8197427,
+        "longitude": -107.655919,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/10/2009",
+                "Name": "Luther Eppson",
+                "medicalResaon": "Poisoning by benzodiazepines, assault, subsequent encounter"
+            },
+            {
+                "recordDate ": "8/1/2016",
+                "Name": "Ursa Izhakov",
+                "medicalResaon": "Unspecified injury of muscle(s) and tendon(s) of peroneal muscle group at lower leg level, left leg, sequela"
+            },
+            {
+                "recordDate ": "2/22/2005",
+                "Name": "Tamarah Baggott",
+                "medicalResaon": "Other specified injury of muscle, fascia and tendon of unspecified hip, initial encounter"
+            },
+            {
+                "recordDate ": "6/20/2022",
+                "Name": "Mireielle Owlner",
+                "medicalResaon": "Other exposure to controlled fire, not in building or structure"
+            }
+        ]
+    },
+    {
+        "id": "8ec6288c-2e65-4d1d-8a9f-5bad2afafbf0",
+        "animalType": "Sheep",
+        "DOB": "4/8/2009",
+        "Health ": 67,
+        "latitude": -7.2194536,
+        "longitude": 108.0045002,
+        "medicalHistory": [
+            {
+                "recordDate ": "12/11/2020",
+                "Name": "Elfrida Chattock",
+                "medicalResaon": "Nondisplaced oblique fracture of shaft of unspecified fibula, subsequent encounter for open fracture type I or II with delayed healing"
+            },
+            {
+                "recordDate ": "1/26/2019",
+                "Name": "Merell Onion",
+                "medicalResaon": "Pathological fracture, left toe(s), subsequent encounter for fracture with nonunion"
+            }
+        ]
+    },
+    {
+        "id": "6c2c0d5a-c08f-4b85-9807-6e4bed220a51",
+        "animalType": "Pig",
+        "DOB": "9/21/2004",
+        "Health ": 65,
+        "latitude": 59.2980063,
+        "longitude": 18.0669126,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/6/2009",
+                "Name": "Baudoin Lambotin",
+                "medicalResaon": "Melanoma in situ of lip"
+            }
+        ]
+    },
+    {
+        "id": "996fa185-609f-42b1-8e77-f058a9d2c57d",
+        "animalType": "Sheep",
+        "DOB": "3/12/2022",
+        "Health ": 92,
+        "latitude": 62.216473,
+        "longitude": 135.8549959,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/25/2009",
+                "Name": "Carmencita Mesias",
+                "medicalResaon": "Pathological fracture in other disease, unspecified humerus, sequela"
+            },
+            {
+                "recordDate ": "8/11/2021",
+                "Name": "Wilburt Franzolini",
+                "medicalResaon": "Mediastinal (thymic) large B-cell lymphoma, unspecified site"
+            },
+            {
+                "recordDate ": "10/17/2017",
+                "Name": "Skippie O Sullivan",
+                "medicalResaon": "Military operations involving other explosions and fragments, military personnel, sequela"
+            },
+            {
+                "recordDate ": "1/18/2013",
+                "Name": "Maddy Farreil",
+                "medicalResaon": "Intermittent hydrarthrosis, unspecified ankle and foot"
+            }
+        ]
+    },
+    {
+        "id": "1149ab6d-2f73-446e-b5c8-d5b390c71d89",
+        "animalType": "Sheep",
+        "DOB": "6/21/2020",
+        "Health ": 62,
+        "latitude": 13.4841015,
+        "longitude": -88.4670322,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/5/2012",
+                "Name": "Brittney Caplan",
+                "medicalResaon": "Newborn affected by other abnormalities of membranes"
+            },
+            {
+                "recordDate ": "8/27/2007",
+                "Name": "Patton Rannie",
+                "medicalResaon": "Discordant ventriculoarterial connection"
+            },
+            {
+                "recordDate ": "12/12/2013",
+                "Name": "Kaitlynn Andreas",
+                "medicalResaon": "Poisoning by other systemic antibiotics, accidental (unintentional), sequela"
+            }
+        ]
+    },
+    {
+        "id": "be6fa8bd-aa35-48d2-8f14-517069f4b7f0",
+        "animalType": "Pig",
+        "DOB": "4/26/2022",
+        "Health ": 59,
+        "latitude": -12.2597272,
+        "longitude": -38.9646608,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/21/2011",
+                "Name": "Benetta Schruyers",
+                "medicalResaon": "Poisoning by emollients, demulcents and protectants, accidental (unintentional), initial encounter"
+            },
+            {
+                "recordDate ": "3/5/2009",
+                "Name": "Dillon Bewlie",
+                "medicalResaon": "Injury of visual cortex, left eye"
+            }
+        ]
+    },
+    {
+        "id": "ef4da144-a865-4792-90c0-ff45b5f3ff65",
+        "animalType": "Cow",
+        "DOB": "4/21/2011",
+        "Health ": 57,
+        "latitude": 45.551643,
+        "longitude": -73.1932647,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/20/2006",
+                "Name": "Powell Barukh",
+                "medicalResaon": "Maxillary fracture, left side, subsequent encounter for fracture with routine healing"
+            },
+            {
+                "recordDate ": "10/3/2016",
+                "Name": "Aurore Jaegar",
+                "medicalResaon": "Myositis ossificans progressiva, ankle, foot and toe(s)"
+            },
+            {
+                "recordDate ": "2/28/2013",
+                "Name": "Elton Airds",
+                "medicalResaon": "Nondisplaced fracture of olecranon process without intraarticular extension of left ulna, subsequent encounter for closed fracture with malunion"
+            },
+            {
+                "recordDate ": "7/11/2005",
+                "Name": "Josy Muglestone",
+                "medicalResaon": "Other meniscus derangements, anterior horn of medial meniscus"
+            },
+            {
+                "recordDate ": "9/15/2015",
+                "Name": "Flossy Pykerman",
+                "medicalResaon": "Immunization not carried out because of chronic illness or condition of patient"
+            }
+        ]
+    },
+    {
+        "id": "59832a98-afc5-46ed-a53a-7cf0754ae55c",
+        "animalType": "Pig",
+        "DOB": "4/11/2014",
+        "Health ": 64,
+        "latitude": -11.9417972,
+        "longitude": -76.9970692,
+        "medicalHistory": [
+            {
+                "recordDate ": "12/11/2018",
+                "Name": "Josey Cockayne",
+                "medicalResaon": "Foreign body in conjunctival sac"
+            },
+            {
+                "recordDate ": "4/21/2016",
+                "Name": "Darnall Dashkov",
+                "medicalResaon": "Injury of medial plantar nerve, left leg"
+            }
+        ]
+    },
+    {
+        "id": "dc1a207f-7ba6-443f-b95a-756e0e1c0712",
+        "animalType": "Pig",
+        "DOB": "1/24/2005",
+        "Health ": 79,
+        "latitude": 1.0357171,
+        "longitude": 118.0654445,
+        "medicalHistory": [
+            {
+                "recordDate ": "7/10/2019",
+                "Name": "Bentley Wigin",
+                "medicalResaon": "Epidural hemorrhage"
+            },
+            {
+                "recordDate ": "8/14/2008",
+                "Name": "Heall Alvy",
+                "medicalResaon": "Nontraumatic subarachnoid hemorrhage from right posterior communicating artery"
+            },
+            {
+                "recordDate ": "3/4/2021",
+                "Name": "Josias Shelborne",
+                "medicalResaon": "Unspecified open wound of right index finger without damage to nail"
+            },
+            {
+                "recordDate ": "10/4/2014",
+                "Name": "Tim Alfonso",
+                "medicalResaon": "Fracture of alveolus of mandible, unspecified side, initial encounter for closed fracture"
+            }
+        ]
+    },
+    {
+        "id": "36b92c0c-d507-4213-9ccc-7256e94a0eb7",
+        "animalType": "Pig",
+        "DOB": "5/6/2016",
+        "Health ": 80,
+        "latitude": 4.682198,
+        "longitude": 9.3215345,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/23/2015",
+                "Name": "Deane Fendlen",
+                "medicalResaon": "Pedal cycle driver injured in collision with car, pick-up truck or van in traffic accident, initial encounter"
+            },
+            {
+                "recordDate ": "5/20/2007",
+                "Name": "Malvina Blindermann",
+                "medicalResaon": "Displaced fracture of medial condyle of left humerus, subsequent encounter for fracture with nonunion"
+            },
+            {
+                "recordDate ": "7/24/2011",
+                "Name": "Florenza McCerery",
+                "medicalResaon": "Unspecified injury of other blood vessels at ankle and foot level, left leg, subsequent encounter"
+            },
+            {
+                "recordDate ": "5/13/2010",
+                "Name": "Sorcha Filochov",
+                "medicalResaon": "Malignant neoplasm of lower-inner quadrant of unspecified male breast"
+            },
+            {
+                "recordDate ": "1/30/2006",
+                "Name": "Devon Goodsall",
+                "medicalResaon": "Partial traumatic metacarpophalangeal amputation of left index finger, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "d9edb2d6-3503-49ff-a54a-db7b0a16fe85",
+        "animalType": "Sheep",
+        "DOB": "7/21/2010",
+        "Health ": 49,
+        "latitude": 50.3539017,
+        "longitude": 14.4817813,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/4/2018",
+                "Name": "Siobhan Spata",
+                "medicalResaon": "Other specified injury of dorsal artery of right foot, subsequent encounter"
+            }
+        ]
+    },
+    {
+        "id": "4aef40bb-1ef1-4e7f-90b3-7b7683f4bc7d",
+        "animalType": "Pig",
+        "DOB": "12/27/2012",
+        "Health ": 80,
+        "latitude": 39.4477824,
+        "longitude": -9.014074,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/28/2012",
+                "Name": "Daniel Went",
+                "medicalResaon": "Laceration without foreign body of unspecified thumb without damage to nail, initial encounter"
+            },
+            {
+                "recordDate ": "5/31/2006",
+                "Name": "Husein Auchinleck",
+                "medicalResaon": "Unspecified physeal fracture of phalanx of unspecified toe"
+            },
+            {
+                "recordDate ": "2/11/2015",
+                "Name": "Drew Sommerlie",
+                "medicalResaon": "Carcinoma in situ of unspecified female genital organs"
+            },
+            {
+                "recordDate ": "5/14/2008",
+                "Name": "Kathe Beaney",
+                "medicalResaon": "Chronic or unspecified duodenal ulcer with hemorrhage"
+            },
+            {
+                "recordDate ": "12/1/2008",
+                "Name": "Averyl Newson",
+                "medicalResaon": "External constriction of part of breast, unspecified breast, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "4c80950b-b29d-4be3-8f25-492b9cbf46c4",
+        "animalType": "Cow",
+        "DOB": "8/4/2009",
+        "Health ": 69,
+        "latitude": 41.548437,
+        "longitude": 82.433337,
+        "medicalHistory": []
+    },
+    {
+        "id": "8f3e8ca5-4cca-4ac3-8118-846dad2a88fc",
+        "animalType": "Sheep",
+        "DOB": "12/23/2004",
+        "Health ": 84,
+        "latitude": 21.918725,
+        "longitude": 111.053561,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/9/2007",
+                "Name": "Herculie Antognazzi",
+                "medicalResaon": "Other injuries of left eye and orbit"
+            }
+        ]
+    },
+    {
+        "id": "9a14d21a-03a4-46f9-a625-d67f747cb5cc",
+        "animalType": "Sheep",
+        "DOB": "12/18/2011",
+        "Health ": 33,
+        "latitude": 42.901533,
+        "longitude": 125.136451,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/21/2021",
+                "Name": "Laryssa Semechik",
+                "medicalResaon": "Corrosion of second degree of scalp [any part]"
+            },
+            {
+                "recordDate ": "2/19/2012",
+                "Name": "Ranee Gentry",
+                "medicalResaon": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of other part of lower leg"
+            }
+        ]
+    },
+    {
+        "id": "211542c1-5e3f-43b1-9d43-7e43a6f9f3d3",
+        "animalType": "Pig",
+        "DOB": "12/4/2018",
+        "Health ": 80,
+        "latitude": 30.594336,
+        "longitude": 105.236903,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/16/2018",
+                "Name": "Elenore Olyet",
+                "medicalResaon": "Nondisplaced fracture of medial condyle of left femur, subsequent encounter for open fracture type I or II with delayed healing"
+            },
+            {
+                "recordDate ": "10/5/2021",
+                "Name": "Vlad Voice",
+                "medicalResaon": "Pedestrian on skateboard injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "5/11/2007",
+                "Name": "Ilka Hargreave",
+                "medicalResaon": "Other superficial bite of lip, subsequent encounter"
+            }
+        ]
+    },
+    {
+        "id": "a697c548-ab96-4436-98e3-017367b66c01",
+        "animalType": "Pig",
+        "DOB": "9/19/2006",
+        "Health ": 93,
+        "latitude": 26.5836,
+        "longitude": 104.857063,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/26/2019",
+                "Name": "Eldon Sygrove",
+                "medicalResaon": "Unspecified fracture of unspecified forearm, sequela"
+            },
+            {
+                "recordDate ": "4/26/2021",
+                "Name": "Angelique Staton",
+                "medicalResaon": "Poisoning by unspecified agents primarily affecting the cardiovascular system, assault, sequela"
+            },
+            {
+                "recordDate ": "6/22/2006",
+                "Name": "Vin Shiell",
+                "medicalResaon": "Adverse effect of keratolytics, keratoplastics, and other hair treatment drugs and preparations, initial encounter"
+            },
+            {
+                "recordDate ": "5/25/2011",
+                "Name": "Dylan Bexon",
+                "medicalResaon": "Other superficial bite, unspecified lower leg, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "62c695ed-df31-4142-83d4-c39daba8d6b0",
+        "animalType": "Sheep",
+        "DOB": "2/19/2003",
+        "Health ": 84,
+        "latitude": 31.9453666,
+        "longitude": 35.9283716,
+        "medicalHistory": [
+            {
+                "recordDate ": "9/22/2015",
+                "Name": "Von Beinke",
+                "medicalResaon": "Hypertrophy of bone, unspecified tibia and fibula"
+            }
+        ]
+    },
+    {
+        "id": "e15d9e80-39f1-44c9-9f3d-0852165ed7b4",
+        "animalType": "Sheep",
+        "DOB": "7/21/2006",
+        "Health ": 77,
+        "latitude": 50.4919489,
+        "longitude": 13.2886723,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/12/2009",
+                "Name": "Aluin Lofthouse",
+                "medicalResaon": "Acute tonsillitis due to other specified organisms"
+            },
+            {
+                "recordDate ": "8/27/2021",
+                "Name": "Michelina Conlon",
+                "medicalResaon": "Displaced fracture of anterior wall of unspecified acetabulum, subsequent encounter for fracture with delayed healing"
+            },
+            {
+                "recordDate ": "12/1/2006",
+                "Name": "Omar Sellack",
+                "medicalResaon": "Other viral diseases complicating pregnancy, childbirth and the puerperium"
+            },
+            {
+                "recordDate ": "2/22/2018",
+                "Name": "Krisha Knee",
+                "medicalResaon": "Poisoning by, adverse effect of and underdosing of stimulant laxatives"
+            }
+        ]
+    },
+    {
+        "id": "686f7026-217f-4d5b-a09d-fd606d532f3e",
+        "animalType": "Cow",
+        "DOB": "5/15/2005",
+        "Health ": 88,
+        "latitude": 38.560256,
+        "longitude": 69.0165511,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/4/2008",
+                "Name": "Jeffy Butterfield",
+                "medicalResaon": "Displaced spiral fracture of shaft of ulna, left arm, subsequent encounter for open fracture type I or II with delayed healing"
+            },
+            {
+                "recordDate ": "8/9/2008",
+                "Name": "Jacquette Harcombe",
+                "medicalResaon": "Poisoning by anticholinesterase agents, assault, subsequent encounter"
+            }
+        ]
+    },
+    {
+        "id": "e65f97a1-ef47-4731-8228-f8878648562f",
+        "animalType": "Pig",
+        "DOB": "10/21/2021",
+        "Health ": 35,
+        "latitude": -13.67147,
+        "longitude": -172.17768,
+        "medicalHistory": []
+    },
+    {
+        "id": "f92fbfcd-39ac-4355-b9bb-9241a8021e2d",
+        "animalType": "Sheep",
+        "DOB": "10/9/2004",
+        "Health ": 91,
+        "latitude": 51.8830697,
+        "longitude": -8.5047067,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/10/2019",
+                "Name": "Saree Ivie",
+                "medicalResaon": "Contusion of scalp, sequela"
+            },
+            {
+                "recordDate ": "8/7/2015",
+                "Name": "Jdavie Rustadge",
+                "medicalResaon": "Driver of pick-up truck or van injured in noncollision transport accident in nontraffic accident"
+            },
+            {
+                "recordDate ": "3/23/2008",
+                "Name": "Beatrice Armstrong",
+                "medicalResaon": "Unspecified occipital condyle fracture, initial encounter for open fracture"
+            },
+            {
+                "recordDate ": "12/12/2011",
+                "Name": "Thaxter Deal",
+                "medicalResaon": "Military operations involving gasoline bomb, civilian, sequela"
+            }
+        ]
+    },
+    {
+        "id": "ef424dea-d0db-4ee9-9459-bf3c5756a83d",
+        "animalType": "Sheep",
+        "DOB": "7/24/2002",
+        "Health ": 43,
+        "latitude": 53.2945961,
+        "longitude": -0.9335791,
+        "medicalHistory": []
+    },
+    {
+        "id": "acda4041-9b8e-4a24-acd2-3cf0692c5fe0",
+        "animalType": "Pig",
+        "DOB": "11/6/2019",
+        "Health ": 83,
+        "latitude": -0.0998238,
+        "longitude": 34.2747004,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/6/2022",
+                "Name": "Tynan Eddisforth",
+                "medicalResaon": "Open bite of left great toe with damage to nail, subsequent encounter"
+            },
+            {
+                "recordDate ": "10/17/2022",
+                "Name": "Land Dicey",
+                "medicalResaon": "Neoplasm of unspecified behavior of other specified sites"
+            },
+            {
+                "recordDate ": "9/15/2022",
+                "Name": "Emmit Basillon",
+                "medicalResaon": "Sprain of anterior cruciate ligament of unspecified knee, subsequent encounter"
+            }
+        ]
+    },
+    {
+        "id": "774026aa-6e0a-42b1-9f04-3680daa374e4",
+        "animalType": "Sheep",
+        "DOB": "9/23/2013",
+        "Health ": 28,
+        "latitude": 39.907771,
+        "longitude": 116.447949,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/17/2013",
+                "Name": "Bevvy Shillingford",
+                "medicalResaon": "Central cord syndrome at C2 level of cervical spinal cord"
+            }
+        ]
+    },
+    {
+        "id": "8364e59c-7099-466a-8351-fe0cad0daa72",
+        "animalType": "Sheep",
+        "DOB": "2/20/2012",
+        "Health ": 12,
+        "latitude": -7.1057357,
+        "longitude": 108.7066398,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/12/2018",
+                "Name": "Georgie Bartzen",
+                "medicalResaon": "Unspecified myringitis, unspecified ear"
+            },
+            {
+                "recordDate ": "2/1/2006",
+                "Name": "Melonie Malin",
+                "medicalResaon": "Superficial foreign body, left lower leg, initial encounter"
+            },
+            {
+                "recordDate ": "12/27/2009",
+                "Name": "Heather Caslin",
+                "medicalResaon": "Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene"
+            },
+            {
+                "recordDate ": "8/3/2020",
+                "Name": "Dulcia Ratlee",
+                "medicalResaon": "Burn of unspecified degree of right thigh, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "36ad33b4-2dc4-4619-b09e-604a1faf777b",
+        "animalType": "Cow",
+        "DOB": "9/20/2004",
+        "Health ": 87,
+        "latitude": 24.0441592,
+        "longitude": 90.9856518,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/11/2009",
+                "Name": "Irena Undrill",
+                "medicalResaon": "Nondisplaced spiral fracture of shaft of ulna, right arm, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "11/3/2006",
+                "Name": "Lamond Crother",
+                "medicalResaon": "Poisoning by anterior pituitary [adenohypophyseal] hormones, assault, initial encounter"
+            },
+            {
+                "recordDate ": "8/24/2021",
+                "Name": "Jefferey Sikorsky",
+                "medicalResaon": "Connective tissue stenosis of neural canal of rib cage"
+            },
+            {
+                "recordDate ": "11/23/2022",
+                "Name": "Nathaniel Neem",
+                "medicalResaon": "Unspecified nondisplaced fracture of sixth cervical vertebra, subsequent encounter for fracture with nonunion"
+            },
+            {
+                "recordDate ": "12/10/2014",
+                "Name": "Sadie Thorn",
+                "medicalResaon": "Activity, rough housing and horseplay"
+            }
+        ]
+    },
+    {
+        "id": "38398f03-a3f2-4fbf-863d-394800e9bb52",
+        "animalType": "Sheep",
+        "DOB": "1/4/2018",
+        "Health ": 69,
+        "latitude": -6.9644462,
+        "longitude": 108.5537373,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/17/2021",
+                "Name": "Major Kille",
+                "medicalResaon": "Food in esophagus causing compression of trachea, initial encounter"
+            },
+            {
+                "recordDate ": "12/17/2009",
+                "Name": "Bertine O'Callaghan",
+                "medicalResaon": "Nondisplaced midcervical fracture of left femur, subsequent encounter for open fracture type I or II with delayed healing"
+            },
+            {
+                "recordDate ": "11/3/2018",
+                "Name": "Isis Gillet",
+                "medicalResaon": "Unspecified misadventure during surgical and medical care"
+            },
+            {
+                "recordDate ": "10/4/2018",
+                "Name": "Corly Shuttleworth",
+                "medicalResaon": "Other specified malignant neoplasm of skin of scalp and neck"
+            },
+            {
+                "recordDate ": "10/16/2022",
+                "Name": "Tonia Hillaby",
+                "medicalResaon": "Newborn affected by ectopic pregnancy"
+            }
+        ]
+    },
+    {
+        "id": "f2e2c343-d352-4aff-8fdd-4e5668ebd054",
+        "animalType": "Pig",
+        "DOB": "7/4/2019",
+        "Health ": 91,
+        "latitude": -34.6310923,
+        "longitude": -58.8801499,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/22/2013",
+                "Name": "Selena Jaimez",
+                "medicalResaon": "Dislocation of tarsal joint of left foot, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "bfb25d6e-400b-4c6f-9101-04efb1235eec",
+        "animalType": "Pig",
+        "DOB": "12/28/2016",
+        "Health ": 47,
+        "latitude": 51.9210929,
+        "longitude": 15.4768834,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/6/2020",
+                "Name": "Inesita Asker",
+                "medicalResaon": "Nondisplaced fracture of distal pole of navicular [scaphoid] bone of right wrist, subsequent encounter for fracture with routine healing"
+            },
+            {
+                "recordDate ": "6/26/2009",
+                "Name": "Karlens Sumpton",
+                "medicalResaon": "Xanthelasma of left eye, unspecified eyelid"
+            }
+        ]
+    },
+    {
+        "id": "59af2347-bae3-4484-a16b-73e681357855",
+        "animalType": "Pig",
+        "DOB": "5/26/2003",
+        "Health ": 62,
+        "latitude": 30.753602,
+        "longitude": 113.926374,
+        "medicalHistory": [
+            {
+                "recordDate ": "6/8/2020",
+                "Name": "Adriena Itzchaky",
+                "medicalResaon": "Longitudinal vaginal septum, microperforate, left side"
+            },
+            {
+                "recordDate ": "3/19/2008",
+                "Name": "Morlee Roydon",
+                "medicalResaon": "Poisoning by other agents primarily affecting gastrointestinal system, intentional self-harm"
+            },
+            {
+                "recordDate ": "11/18/2006",
+                "Name": "Burty Ashbolt",
+                "medicalResaon": "Laceration of body of pancreas, unspecified degree, subsequent encounter"
+            },
+            {
+                "recordDate ": "12/7/2010",
+                "Name": "Leonore Billo",
+                "medicalResaon": "Nondisplaced fracture of shaft of unspecified clavicle, subsequent encounter for fracture with delayed healing"
+            }
+        ]
+    },
+    {
+        "id": "2c8d109d-b10d-4f2c-afac-f368b64a1976",
+        "animalType": "Sheep",
+        "DOB": "4/27/2008",
+        "Health ": 66,
+        "latitude": 8.4611612,
+        "longitude": 25.6805868,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/12/2013",
+                "Name": "Hazel Hymers",
+                "medicalResaon": "Malingerer [conscious simulation]"
+            }
+        ]
+    },
+    {
+        "id": "d90e33d6-d266-45a4-8612-e72ac2189092",
+        "animalType": "Cow",
+        "DOB": "7/27/2017",
+        "Health ": 21,
+        "latitude": 46.2287025,
+        "longitude": 15.5190353,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/27/2014",
+                "Name": "Teodora Giraudel",
+                "medicalResaon": "Arteritis, unspecified"
+            },
+            {
+                "recordDate ": "8/15/2018",
+                "Name": "Elbertina Losel",
+                "medicalResaon": "Person on outside of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter"
+            },
+            {
+                "recordDate ": "4/20/2015",
+                "Name": "Sherie Cowlas",
+                "medicalResaon": "Person on outside of bus injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "3/20/2011",
+                "Name": "Vittorio Vardy",
+                "medicalResaon": "Corrosion of third degree of left thigh, sequela"
+            },
+            {
+                "recordDate ": "4/7/2016",
+                "Name": "Kassia Sawyers",
+                "medicalResaon": "Other specified injury of long flexor muscle, fascia and tendon of right thumb at wrist and hand level"
+            }
+        ]
+    },
+    {
+        "id": "65eec189-2c6d-4fdd-9f6e-3042c2d63bea",
+        "animalType": "Pig",
+        "DOB": "9/2/2004",
+        "Health ": 19,
+        "latitude": 35.3939908,
+        "longitude": 109.1880047,
+        "medicalHistory": [
+            {
+                "recordDate ": "9/22/2009",
+                "Name": "Jonathan Anglim",
+                "medicalResaon": "Pigmentary glaucoma, bilateral, mild stage"
+            },
+            {
+                "recordDate ": "4/8/2011",
+                "Name": "Marjy Simo",
+                "medicalResaon": "Nondisplaced fracture of anterior process of left calcaneus"
+            },
+            {
+                "recordDate ": "5/1/2011",
+                "Name": "Georgina Robel",
+                "medicalResaon": "Unspecified fracture of fifth metacarpal bone, right hand, subsequent encounter for fracture with routine healing"
+            },
+            {
+                "recordDate ": "8/13/2015",
+                "Name": "Marya Addionizio",
+                "medicalResaon": "Nondisplaced fracture of anterior column [iliopubic] of left acetabulum, subsequent encounter for fracture with nonunion"
+            }
+        ]
+    },
+    {
+        "id": "1a611ae0-03fd-44be-bd29-2bbe44dc81bc",
+        "animalType": "Cow",
+        "DOB": "2/25/2003",
+        "Health ": 82,
+        "latitude": -6.9401945,
+        "longitude": 106.9247932,
+        "medicalHistory": [
+            {
+                "recordDate ": "9/4/2015",
+                "Name": "Jojo Golt",
+                "medicalResaon": "Fracture of body of hamate [unciform] bone"
+            },
+            {
+                "recordDate ": "6/10/2019",
+                "Name": "Alexander Robertucci",
+                "medicalResaon": "Sinus barotrauma, initial encounter"
+            },
+            {
+                "recordDate ": "11/1/2018",
+                "Name": "Jobye Pardue",
+                "medicalResaon": "Malformation of placenta, unspecified, third trimester"
+            }
+        ]
+    },
+    {
+        "id": "7fc23414-93fb-4f66-97b1-e1f8fd47662d",
+        "animalType": "Cow",
+        "DOB": "10/1/2003",
+        "Health ": 61,
+        "latitude": -13.056944,
+        "longitude": -74.213611,
+        "medicalHistory": [
+            {
+                "recordDate ": "2/21/2017",
+                "Name": "Pierrette Drakes",
+                "medicalResaon": "Other specified injury of radial artery at wrist and hand level of left arm, initial encounter"
+            },
+            {
+                "recordDate ": "4/26/2022",
+                "Name": "Tadeas Copner",
+                "medicalResaon": "Diabetes mellitus due to underlying condition with other specified complication"
+            },
+            {
+                "recordDate ": "8/30/2014",
+                "Name": "Sigvard Gayne",
+                "medicalResaon": "Displaced transverse fracture of shaft of unspecified tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion"
+            }
+        ]
+    },
+    {
+        "id": "0dfe40f3-7f6e-4c5d-a473-44da9357cca6",
+        "animalType": "Pig",
+        "DOB": "1/26/2003",
+        "Health ": 38,
+        "latitude": 43.918776,
+        "longitude": 125.2907021,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/27/2017",
+                "Name": "D'arcy Spooner",
+                "medicalResaon": "Puncture wound with foreign body of right eyelid and periocular area, sequela"
+            },
+            {
+                "recordDate ": "7/18/2008",
+                "Name": "Katharina Kendle",
+                "medicalResaon": "Garden or yard of unspecified non-institutional (private) residence as the place of occurrence of the external cause"
+            },
+            {
+                "recordDate ": "5/7/2010",
+                "Name": "Terrijo Hunte",
+                "medicalResaon": "Poisoning by unspecified general anesthetics, accidental (unintentional)"
+            },
+            {
+                "recordDate ": "10/3/2007",
+                "Name": "Imelda Pietersma",
+                "medicalResaon": "Displaced oblique fracture of shaft of right radius, initial encounter for open fracture type IIIA, IIIB, or IIIC"
+            },
+            {
+                "recordDate ": "10/18/2019",
+                "Name": "Katharina Tucknott",
+                "medicalResaon": "Other contact with shark, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "d01a4442-6e52-4a9b-b5af-21f70ebf5243",
+        "animalType": "Pig",
+        "DOB": "9/22/2013",
+        "Health ": 74,
+        "latitude": 40.5854429,
+        "longitude": -8.6170601,
+        "medicalHistory": [
+            {
+                "recordDate ": "6/17/2016",
+                "Name": "Vince Deval",
+                "medicalResaon": "Cutaneous abscess, furuncle and carbuncle of other sites"
+            }
+        ]
+    },
+    {
+        "id": "ba94d881-8403-4cfb-be49-184645e049c7",
+        "animalType": "Pig",
+        "DOB": "6/15/2011",
+        "Health ": 53,
+        "latitude": 14.371666,
+        "longitude": 100.314818,
+        "medicalHistory": [
+            {
+                "recordDate ": "11/1/2008",
+                "Name": "Amory Seed",
+                "medicalResaon": "Nondisplaced fracture of base of neck of unspecified femur, initial encounter for closed fracture"
+            },
+            {
+                "recordDate ": "3/9/2019",
+                "Name": "Cortie Ridout",
+                "medicalResaon": "Encounter for pregnancy test, result negative"
+            },
+            {
+                "recordDate ": "3/26/2006",
+                "Name": "Stesha Slidders",
+                "medicalResaon": "Age-related osteoporosis with current pathological fracture, right ankle and foot, subsequent encounter for fracture with nonunion"
+            }
+        ]
+    },
+    {
+        "id": "a4b0e795-2881-4e99-90a0-9ec80848d41f",
+        "animalType": "Pig",
+        "DOB": "4/23/2014",
+        "Health ": 29,
+        "latitude": 49.4434442,
+        "longitude": 15.8815566,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/2/2005",
+                "Name": "Nicolea Wingar",
+                "medicalResaon": "Infection and inflammatory reaction due to internal fixation device of right humerus, subsequent encounter"
+            },
+            {
+                "recordDate ": "6/22/2005",
+                "Name": "Sam Hought",
+                "medicalResaon": "Intermittent hydrarthrosis, elbow"
+            },
+            {
+                "recordDate ": "2/2/2015",
+                "Name": "Nicolis Kellard",
+                "medicalResaon": "Partial retinal artery occlusion, bilateral"
+            },
+            {
+                "recordDate ": "2/9/2020",
+                "Name": "Justin Saphin",
+                "medicalResaon": "Other fracture of fourth metacarpal bone, right hand"
+            }
+        ]
+    },
+    {
+        "id": "fd92bb3d-0517-49f5-a170-83eb07beca29",
+        "animalType": "Sheep",
+        "DOB": "5/10/2002",
+        "Health ": 8,
+        "latitude": 24.732204,
+        "longitude": 118.648066,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/23/2014",
+                "Name": "Tally Muston",
+                "medicalResaon": "Passenger in pick-up truck or van injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "12/16/2013",
+                "Name": "Gil Luxmoore",
+                "medicalResaon": "Other fracture of shaft of unspecified femur, subsequent encounter for closed fracture with routine healing"
+            }
+        ]
+    },
+    {
+        "id": "8d11e232-d369-458c-b4ab-7505e6a47a4d",
+        "animalType": "Cow",
+        "DOB": "10/20/2012",
+        "Health ": 27,
+        "latitude": 41.1509639,
+        "longitude": -7.9737002,
+        "medicalHistory": [
+            {
+                "recordDate ": "1/27/2011",
+                "Name": "Shep Dyche",
+                "medicalResaon": "Displaced supracondylar fracture without intracondylar extension of lower end of unspecified femur, subsequent encounter for open fracture type I or II with nonunion"
+            },
+            {
+                "recordDate ": "6/28/2018",
+                "Name": "Hashim Androlli",
+                "medicalResaon": "Underdosing of glucocorticoids and synthetic analogues, sequela"
+            },
+            {
+                "recordDate ": "2/26/2021",
+                "Name": "Alla Willimot",
+                "medicalResaon": "Poisoning by succinimides and oxazolidinediones, undetermined, subsequent encounter"
+            },
+            {
+                "recordDate ": "11/29/2007",
+                "Name": "Rianon Budnik",
+                "medicalResaon": "Crepitant synovitis (acute) (chronic), wrist"
+            },
+            {
+                "recordDate ": "3/27/2018",
+                "Name": "Blair June",
+                "medicalResaon": "Other fractures of lower end of left radius"
+            }
+        ]
+    },
+    {
+        "id": "2fd437fd-2e0b-40cf-9e78-b3605d958a28",
+        "animalType": "Cow",
+        "DOB": "9/10/2009",
+        "Health ": 77,
+        "latitude": 42.2827426,
+        "longitude": -83.1488186,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/8/2011",
+                "Name": "Rivi Giffaut",
+                "medicalResaon": "Corrosion of first degree of multiple sites of shoulder and upper limb, except wrist and hand"
+            },
+            {
+                "recordDate ": "7/31/2007",
+                "Name": "Guenna Tuftin",
+                "medicalResaon": "Other injury of muscle and tendon of long flexor muscle of toe at ankle and foot level, unspecified foot"
+            },
+            {
+                "recordDate ": "7/3/2006",
+                "Name": "Maddie Harrold",
+                "medicalResaon": "Toxic effect of venom of black widow spider, undetermined, sequela"
+            },
+            {
+                "recordDate ": "7/2/2016",
+                "Name": "Venus Keppel",
+                "medicalResaon": "Driver of special construction vehicle injured in traffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "1/22/2011",
+                "Name": "Chryste Ventom",
+                "medicalResaon": "Subluxation of unspecified parts of left shoulder girdle, initial encounter"
+            }
+        ]
+    },
+    {
+        "id": "ca849875-1c77-4356-afbd-eb898a689104",
+        "animalType": "Sheep",
+        "DOB": "1/4/2018",
+        "Health ": 35,
+        "latitude": 14.6741293,
+        "longitude": 120.5112907,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/8/2020",
+                "Name": "Ly Bales",
+                "medicalResaon": "Unspecified fracture of upper end of unspecified humerus, subsequent encounter for fracture with malunion"
+            }
+        ]
+    },
+    {
+        "id": "34ad16bf-4aa7-4357-b928-740bc88a1bc4",
+        "animalType": "Pig",
+        "DOB": "10/8/2019",
+        "Health ": 70,
+        "latitude": 62.390811,
+        "longitude": 17.306927,
+        "medicalHistory": [
+            {
+                "recordDate ": "10/15/2022",
+                "Name": "Ferne Maybury",
+                "medicalResaon": "Puncture wound with foreign body of unspecified thumb without damage to nail, initial encounter"
+            },
+            {
+                "recordDate ": "12/7/2011",
+                "Name": "Rubin Dominiak",
+                "medicalResaon": "Laceration of extensor muscle, fascia and tendon of left middle finger at wrist and hand level"
+            },
+            {
+                "recordDate ": "6/16/2020",
+                "Name": "Hurlee Burfoot",
+                "medicalResaon": "Poisoning by anterior pituitary [adenohypophyseal] hormones, undetermined, sequela"
+            },
+            {
+                "recordDate ": "6/15/2017",
+                "Name": "Barris Guthrum",
+                "medicalResaon": "Gestational proteinuria, second trimester"
+            },
+            {
+                "recordDate ": "11/30/2022",
+                "Name": "Meredith Dunbabin",
+                "medicalResaon": "Person on outside of pick-up truck or van injured in collision with heavy transport vehicle or bus in traffic accident, sequela"
+            }
+        ]
+    },
+    {
+        "id": "60e21925-52fb-4c7f-b358-a1e339d325bb",
+        "animalType": "Cow",
+        "DOB": "8/25/2007",
+        "Health ": 25,
+        "latitude": 43.4945737,
+        "longitude": 5.8978018,
+        "medicalHistory": [
+            {
+                "recordDate ": "3/30/2020",
+                "Name": "Addy Favey",
+                "medicalResaon": "Acquired clawhand, unspecified hand"
+            },
+            {
+                "recordDate ": "4/12/2017",
+                "Name": "Samuele Roggers",
+                "medicalResaon": "Agenesis of ureter"
+            },
+            {
+                "recordDate ": "3/21/2005",
+                "Name": "Tonie Stoade",
+                "medicalResaon": "Laceration of unspecified blood vessel at forearm level, right arm, sequela"
+            },
+            {
+                "recordDate ": "6/9/2005",
+                "Name": "Trista Bowsher",
+                "medicalResaon": "Fracture of angle of left mandible, subsequent encounter for fracture with nonunion"
+            }
+        ]
+    },
+    {
+        "id": "0031c4e1-e1a9-4d5b-93f2-c93e52ed23a9",
+        "animalType": "Sheep",
+        "DOB": "4/2/2002",
+        "Health ": 58,
+        "latitude": 68.50472,
+        "longitude": 112.4485,
+        "medicalHistory": [
+            {
+                "recordDate ": "6/2/2021",
+                "Name": "Lexine Gosden",
+                "medicalResaon": "Blister (nonthermal) of right thumb, subsequent encounter"
+            },
+            {
+                "recordDate ": "10/20/2014",
+                "Name": "Alex Janaud",
+                "medicalResaon": "Crushed, pushed or stepped on by crowd or human stampede, initial encounter"
+            },
+            {
+                "recordDate ": "4/13/2016",
+                "Name": "Base Regelous",
+                "medicalResaon": "Corrosion of unspecified degree of right toe(s) (nail), sequela"
+            }
+        ]
+    },
+    {
+        "id": "9ac1af89-58ae-4862-b9ec-ff30a850077a",
+        "animalType": "Pig",
+        "DOB": "9/24/2012",
+        "Health ": 62,
+        "latitude": 39.0614002,
+        "longitude": -8.7269577,
+        "medicalHistory": []
+    },
+    {
+        "id": "684cafb7-1e99-4fa6-b0f6-885be6abbb34",
+        "animalType": "Pig",
+        "DOB": "2/17/2012",
+        "Health ": 33,
+        "latitude": 42.4338529,
+        "longitude": 68.8129042,
+        "medicalHistory": [
+            {
+                "recordDate ": "8/8/2014",
+                "Name": "Simona Gaitskell",
+                "medicalResaon": "Other superficial bite of unspecified wrist, sequela"
+            }
+        ]
+    },
+    {
+        "id": "5707f839-bc2f-434d-9334-08da2399529d",
+        "animalType": "Sheep",
+        "DOB": "5/11/2019",
+        "Health ": 37,
+        "latitude": -17.5952979,
+        "longitude": -65.9393064,
+        "medicalHistory": []
+    },
+    {
+        "id": "c8503e52-f33c-4bbb-bf27-5fbd887a90b2",
+        "animalType": "Pig",
+        "DOB": "8/29/2001",
+        "Health ": 42,
+        "latitude": 21.856289,
+        "longitude": 103.3413048,
+        "medicalHistory": [
+            {
+                "recordDate ": "4/27/2005",
+                "Name": "Gottfried Levane",
+                "medicalResaon": "Person on outside of bus injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter"
+            },
+            {
+                "recordDate ": "12/3/2008",
+                "Name": "Boigie Weighell",
+                "medicalResaon": "Nondisplaced fracture of proximal phalanx of left great toe, subsequent encounter for fracture with delayed healing"
+            }
+        ]
+    },
+    {
+        "id": "fdea4c2b-5e17-4354-9f78-accba29b5c3c",
+        "animalType": "Cow",
+        "DOB": "5/29/2018",
+        "Health ": 7,
+        "latitude": 55.706844,
+        "longitude": 37.4622629,
+        "medicalHistory": [
+            {
+                "recordDate ": "5/18/2013",
+                "Name": "Ermina Winckworth",
+                "medicalResaon": "Breakdown (mechanical) of other ocular prosthetic devices, implants and grafts, subsequent encounter"
+            }
+        ]
+    },
+    {
+        "id": "55a7676d-0b4b-4bd1-8592-42a651900d12",
+        "animalType": "Sheep",
+        "DOB": "1/8/2008",
+        "Health ": 41,
+        "latitude": 14.5639944,
+        "longitude": 121.0326387,
+        "medicalHistory": []
+    }
+]
