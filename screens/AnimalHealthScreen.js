@@ -4,33 +4,79 @@ import { useNavigation } from '@react-navigation/native'
 import axios from 'axios';
 import { ScrollView } from 'react-native';
 import { ANIMAL_PATH } from '@env'
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function AnimalHealthScreen() {
 
     const nav = useNavigation();
     const [animalData, setAnimalData] = useState([{}]);
+    const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
+
+
+    const [cowData, setCowData] = useState([{}]);
+    const [pigData, setPigData] = useState([{}]);
+    const [sheepData, setSheepData] = useState([{}]);
 
     useEffect(() => {
         axios.get(ANIMAL_PATH)
             .then(response => {
-                setAnimalData(response.data);
+                const getData = response.data;
+
+                setAnimalData(getData);
+
             })
             .catch(error => {
                 console.error(error);
             });
     }, []);
 
+    const avreageOverallHealth = (petData) => {
+
+        const totalValue = petData.reduce((sum, currentValue) => {
+            return sum + currentValue.health;
+        }, 0);
+
+        return totalValue / petData.length;
+    }
+
+    const healthCategory = (data, minVal, maxVal) => {
+
+        return data.filter(item => {
+            return (item.health >= minVal && item.health <= maxVal);
+        });
+    }
+
+    const outputAnimalsInfo = animalsType.map((item, index) => {
+
+        const fetchData = animalData.filter(data => {
+            return data.type === item;
+        });
+
+        return (
+            <View style={styles.card}>
+                <Text>{item}</Text>
+                <Text> Population: {fetchData.length} </Text>
+                <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
+                <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
+                <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
+                <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
+
+            </View>)
+    })
+
 
     return (
         <ScrollView>
             <View>
-                {Array.isArray(animalData) && animalData.map(animal => (
-                    <View id={animal.id} style={styles.card}>
+                {/* {Array.isArray(pigData) && pigData.map(animal => (
+                    <View key={animal.id} style={styles.card}>
                         <Text>Animal Type: {animal.type}</Text>
                         <Text>Tag number: {animal.tag_number}</Text>
                         <Text>Health: {animal.health}%</Text>
                     </View>
-                ))}
+                ))} */}
+
+                {Array.isArray(animalData) ? outputAnimalsInfo : (<Text> No data </Text>)}
             </View>
         </ScrollView>
     )
