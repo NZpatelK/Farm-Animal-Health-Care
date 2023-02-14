@@ -4,14 +4,12 @@ import { useNavigation } from '@react-navigation/native'
 import axios from 'axios';
 import { ScrollView } from 'react-native';
 import { ANIMAL_PATH } from '@env'
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function AnimalHealthScreen() {
 
     const nav = useNavigation();
     const [animalData, setAnimalData] = useState([{}]);
     const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
-
 
     const [cowData, setCowData] = useState([{}]);
     const [pigData, setPigData] = useState([{}]);
@@ -53,7 +51,7 @@ export default function AnimalHealthScreen() {
         });
 
         return (
-            <View style={styles.card}>
+            <View style={styles.card} key={index}>
                 <Text>{item}</Text>
                 <Text> Population: {fetchData.length} </Text>
                 <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
@@ -68,14 +66,6 @@ export default function AnimalHealthScreen() {
     return (
         <ScrollView>
             <View>
-                {/* {Array.isArray(pigData) && pigData.map(animal => (
-                    <View key={animal.id} style={styles.card}>
-                        <Text>Animal Type: {animal.type}</Text>
-                        <Text>Tag number: {animal.tag_number}</Text>
-                        <Text>Health: {animal.health}%</Text>
-                    </View>
-                ))} */}
-
                 {Array.isArray(animalData) ? outputAnimalsInfo : (<Text> No data </Text>)}
             </View>
         </ScrollView>
