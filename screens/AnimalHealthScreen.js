@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import axios from 'axios';
 import { ScrollView } from 'react-native';
+import { ANIMAL_PATH } from '@env'
 
 export default function AnimalHealthScreen() {
 
@@ -10,7 +11,7 @@ export default function AnimalHealthScreen() {
     const [animalData, setAnimalData] = useState([{}]);
 
     useEffect(() => {
-        axios.get("/Users/karanpatel/Desktop/Project/FarmAnimalHealthCare/FarmAnimalHealthCare/data/AnimalData.json")
+        axios.get(ANIMAL_PATH)
             .then(response => {
                 setAnimalData(response.data);
             })
@@ -24,8 +25,10 @@ export default function AnimalHealthScreen() {
         <ScrollView>
             <View>
                 {Array.isArray(animalData) && animalData.map(animal => (
-                    <View>
-                        <Text>{animal.health}</Text>
+                    <View id={animal.id} style={styles.card}>
+                        <Text>Animal Type: {animal.type}</Text>
+                        <Text>Tag number: {animal.tag_number}</Text>
+                        <Text>Health: {animal.health}%</Text>
                     </View>
                 ))}
             </View>
@@ -33,4 +36,12 @@ export default function AnimalHealthScreen() {
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    card: {
+        margin: 5,
+        padding: 10,
+        borderColor: "black",
+        width: "95%",
+        borderWidth: 5
+    }
+})
