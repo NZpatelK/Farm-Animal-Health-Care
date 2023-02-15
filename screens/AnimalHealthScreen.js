@@ -37,7 +37,7 @@ export default function AnimalHealthScreen() {
         });
 
         return (
-            <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animal', { title: item , fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
+            <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animals', { title: item , fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
 
                 <View key={index}>
                     <Text>{item}</Text>
