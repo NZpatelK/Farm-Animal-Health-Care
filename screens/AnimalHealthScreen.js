@@ -1,9 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, TouchableHighlight } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
-import axios from 'axios';
 import { ScrollView } from 'react-native';
-import { ANIMAL_PATH } from '@env'
 
 export default function AnimalHealthScreen() {
 
@@ -11,21 +9,9 @@ export default function AnimalHealthScreen() {
     const [animalData, setAnimalData] = useState([{}]);
     const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
 
-    const [cowData, setCowData] = useState([{}]);
-    const [pigData, setPigData] = useState([{}]);
-    const [sheepData, setSheepData] = useState([{}]);
 
     useEffect(() => {
-        axios.get(ANIMAL_PATH)
-            .then(response => {
-                const getData = response.data;
-
-                setAnimalData(getData);
-
-            })
-            .catch(error => {
-                console.error(error);
-            });
+        setAnimalData(require("../data/AnimalData.json"));
     }, []);
 
     const avreageOverallHealth = (petData) => {
@@ -51,15 +37,18 @@ export default function AnimalHealthScreen() {
         });
 
         return (
-            <View style={styles.card} key={index}>
-                <Text>{item}</Text>
-                <Text> Population: {fetchData.length} </Text>
-                <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
-                <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
-                <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
-                <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
+            <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animal', { title: item , fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
 
-            </View>)
+                <View key={index}>
+                    <Text>{item}</Text>
+                    <Text> Population: {fetchData.length} </Text>
+                    <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
+                    <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
+                    <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
+                    <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
+                </View>
+
+            </TouchableHighlight>)
     })
 
 
