@@ -3,13 +3,14 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { StyleSheet, View, Image, Text, TouchableOpacity } from 'react-native'
 import DashboardScreen from "./screens/DashboardScreen";
 import AnimalNav from "./AnimalNav";
+import ScanScreen from "./screens/ScanScreen";
 
 const Tab = createBottomTabNavigator();
 
 const CustomTabBarButton = ({ children, onPress }) => (
     <TouchableOpacity
         style={{
-            top: 0,
+            top: -5,
             justifyContent: "center",
             alignContent: "center",
             ...styles.shadow
@@ -64,6 +65,25 @@ export default function Navigation() {
                         </View>
                     )
                 }} />
+                
+            <Tab.Screen name="Scan" component={ScanScreen}
+             options={{
+                tabBarIcon: () => (
+                    <Image
+                        source={{ uri: "https://cdn-icons-png.flaticon.com/512/61/61220.png" }}
+                        resizeMode="contain"
+                        style={{
+                            width: 40,
+                            height: 40,
+                            tintColor: '#fff',
+                        }}
+                    />
+                ),
+                tabBarButton: (props) => (
+                    <CustomTabBarButton{...props} />
+                )
+            }}
+             />
 
 
             <Tab.Screen name="Animals" component={AnimalNav}

@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function ScanScreen() {
+export default function ListItem({item, viewableItems, children}) {
   return (
     <View>
-      <Text>ScanScreen</Text>
+      <Text>ListItem</Text>
     </View>
   )
 }
