@@ -1,17 +1,25 @@
-import { StyleSheet, Text, View, TouchableHighlight } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import { StyleSheet, Text, View, TouchableHighlight, FlatList } from 'react-native'
+import React, { useEffect, useState, useCallback } from 'react'
 import { useNavigation } from '@react-navigation/native'
-import { ScrollView } from 'react-native';
+import { useSharedValue } from 'react-native-reanimated';
+import ListItem from '../components/ListItem';
 
 export default function AnimalHealthScreen() {
 
     const nav = useNavigation();
     const [animalData, setAnimalData] = useState([{}]);
+    const viewableItem = useSharedValue([]);
     const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
 
+    //Testing data
+    //const data = new Array(50).fill(0).map((_, index) => ({ id: index }));
 
     useEffect(() => {
         setAnimalData(require("../data/AnimalData.json"));
+    }, []);
+
+    const onViewableItemsChanged = useCallback(({ viewableItems }) => {
+        viewableItem.value = viewableItems;
     }, []);
 
     const avreageOverallHealth = (petData) => {
@@ -30,43 +38,86 @@ export default function AnimalHealthScreen() {
         });
     }
 
-    const outputAnimalsInfo = animalsType.map((item, index) => {
+    const outputAnimalsInfo = () => {
 
-        const fetchData = animalData.filter(data => {
-            return data.type === item;
-        });
+        const animalArray = [];
 
-        return (
-            <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animals', { title: item , fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
+        animalsType.map((item, index) => {
 
-                <View key={index}>
-                    <Text>{item}</Text>
-                    <Text> Population: {fetchData.length} </Text>
-                    <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
-                    <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
-                    <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
-                    <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
-                </View>
+            const fetchData = animalData.filter(data => {
+                return data.type === item;
+            });
 
-            </TouchableHighlight>)
-    })
+            let animalObject = {}
+            animalObject.id = index;
+            animalObject.type = item;
+            animalObject.population = fetchData.length;
+            animalObject.overallHealth = avreageOverallHealth(fetchData).toFixed(0)
+            animalObject.critial = healthCategory(fetchData, 20, 40).length;
+            animalObject.medium = healthCategory(fetchData, 41, 70).length;
+            animalObject.healthy = healthCategory(fetchData, 71, 100).length;
+            animalObject.animalData = fetchData;
+
+            animalArray.push(animalObject);
+
+            // return (
+            //     <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animals', { title: item, fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
+
+            //         <View key={index}>
+            // <Text>{item}</Text>
+            // <Text> Population: {fetchData.length} </Text>
+            // <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
+            // <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
+            // <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
+            // <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
+            //         </View>
+
+            //     </TouchableHighlight>
+
+            // )
+        })
+
+        return animalArray
+    }
 
 
     return (
-        <ScrollView>
-            <View>
-                {Array.isArray(animalData) ? outputAnimalsInfo : (<Text> No data </Text>)}
-            </View>
-        </ScrollView>
+
+        <View>
+            {/* {Array.isArray(animalData) ? outputAnimalsInfo : (<Text> No data </Text>)} */}
+
+            <FlatList
+                data={outputAnimalsInfo()}
+                style={{ height: "100%" }}
+                onViewableItemsChanged={onViewableItemsChanged}
+                renderItem={({ item }) => {
+                    return (
+                        <ListItem item={item} viewableItems={viewableItem}>
+                            <TouchableHighlight onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
+                                <View>
+                                <Text>{item.type}</Text>
+                                <Text> Population: {item.population} </Text>
+                                <Text> Overall Health: {item.overallHealth}% </Text>
+                                <Text style={{ color: 'red' }}> Critial: {item.critial}</Text>
+                                <Text style={{ color: '#bf9404' }}> Medium: {item.medium}</Text>
+                                <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
+                                </View>
+                            </TouchableHighlight>
+                        </ListItem>
+                    );
+                }}
+            />
+
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
     card: {
-        margin: 5,
-        padding: 10,
-        borderColor: "black",
-        width: "95%",
-        borderWidth: 5
+        height: 100,
+        width: '90%',
+        alignSelf: 'center',
+        borderRadius: 15,
+        marginTop: 20,
     }
 })

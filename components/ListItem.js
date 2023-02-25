@@ -7,7 +7,7 @@ export default function ListItem({ item, viewableItems, children }) {
     const rStyle = useAnimatedStyle(() => {
         const isVisible = Boolean(
             viewableItems.value
-                .fiter((item) => item.isViewable)
+                .filter((item) => item.isViewable)
                 .find((viewableItems) => viewableItems.item.id === item.id)
         );
 
@@ -23,21 +23,22 @@ export default function ListItem({ item, viewableItems, children }) {
 
     return (
         <Animated.View
-            style={[
-                {
-                    height: 100,
-                    width: '90%',
-                    backgroundColor: '#78CAD2',
-                    alignSelf: 'center',
-                    borderRadius: 15,
-                    marginTop: 20,
-                },
+            style={[styles.card,
                 rStyle,
             ]}
         >
-            {children}
+            {children} 
         </Animated.View>
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    card: {
+        height: 100,
+        width: '90%',
+        backgroundColor: '#78CAD2',
+        alignSelf: 'center',
+        borderRadius: 15,
+        marginTop: 20,
+    }
+})
