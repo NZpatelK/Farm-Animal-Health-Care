@@ -11,9 +11,6 @@ export default function AnimalHealthScreen() {
     const viewableItem = useSharedValue([]);
     const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
 
-    //Testing data
-    //const data = new Array(50).fill(0).map((_, index) => ({ id: index }));
-
     useEffect(() => {
         setAnimalData(require("../data/AnimalData.json"));
     }, []);
@@ -59,22 +56,6 @@ export default function AnimalHealthScreen() {
             animalObject.animalData = fetchData;
 
             animalArray.push(animalObject);
-
-            // return (
-            //     <TouchableHighlight key={index} onPress={() => nav.navigate('List of Animals', { title: item, fetchData })} activeOpacity={1} underlayColor="grey" style={styles.card}>
-
-            //         <View key={index}>
-            // <Text>{item}</Text>
-            // <Text> Population: {fetchData.length} </Text>
-            // <Text> Overall Health: {avreageOverallHealth(fetchData).toFixed(0)}% </Text>
-            // <Text style={{ color: 'red' }}> Critial: {healthCategory(fetchData, 20, 40).length}</Text>
-            // <Text style={{ color: '#bf9404' }}> Medium: {healthCategory(fetchData, 41, 70).length}</Text>
-            // <Text style={{ color: 'green' }}> Healthy: {healthCategory(fetchData, 71, 100).length}</Text>
-            //         </View>
-
-            //     </TouchableHighlight>
-
-            // )
         })
 
         return animalArray
@@ -84,8 +65,6 @@ export default function AnimalHealthScreen() {
     return (
 
         <View>
-            {/* {Array.isArray(animalData) ? outputAnimalsInfo : (<Text> No data </Text>)} */}
-
             <FlatList
                 data={outputAnimalsInfo()}
                 style={{ height: "100%" }}
