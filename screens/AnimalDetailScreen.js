@@ -4,7 +4,7 @@ import { useRoute } from '@react-navigation/native';
 
 export default function AnimalDetailScreen() {
     const route = useRoute();
-    const animalData = route.params.animal;
+    const animalData = route.params.item;
 
     return (
         <View>
@@ -17,7 +17,7 @@ export default function AnimalDetailScreen() {
                 <View>
                     {Array.isArray(animalData.medicalHistory) && (animalData.medicalHistory.length != 0) ? animalData.medicalHistory.map (record => (
                         <View style={styles.card} >
-                            <Text>Date: {record.length}</Text>
+                            <Text>Date: {record.recordDate}</Text>
                             <Text>Name: {record.name}</Text>
                             <Text>Issue: {record.medicalResaon}</Text>
                         </View>
