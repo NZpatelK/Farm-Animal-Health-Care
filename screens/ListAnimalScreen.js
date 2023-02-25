@@ -16,20 +16,7 @@ export default function ListAnimalScreen() {
 
 
     return (
-        // <ScrollView>
-        //     <View>
-        //         {Array.isArray(animalData) && animalData.map(animal => (
-        //             <TouchableHighlight onPress={() => nav.navigate('Animal Detail', { name: animal.type + ": " + animal.tag_number, animal })} activeOpacity={1} underlayColor="grey" style={styles.card}>
-        //                 <View key={animal.id}>
-        // <Text>Animal Type: {animal.type}</Text>
-        // <Text>Tag number: {animal.tag_number}</Text>
-        // <Text>Health: {animal.health}%</Text>
-        //                 </View>
-        //             </TouchableHighlight>
-        //         ))}
-        //     </View>
-        // </ScrollView>
-
+     
         <FlatList
             data={animalData}
             style={{ height: "100%" }}
