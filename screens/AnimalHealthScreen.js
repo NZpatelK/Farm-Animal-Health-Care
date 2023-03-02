@@ -71,6 +71,7 @@ export default function AnimalHealthScreen() {
                 style={{ height: "100%" }}
                 onViewableItemsChanged={onViewableItemsChanged}
                 renderItem={({ item }) => {
+                    console.log(item)
                     return (
                         <ListItem item={item} viewableItems={viewableItem}>
                             <TouchableHighlight onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
@@ -81,7 +82,7 @@ export default function AnimalHealthScreen() {
                                     <Text style={{ color: 'red' }}> Critial: {item.critial}</Text>
                                     <Text style={{ color: '#bf9404' }}> Medium: {item.medium}</Text>
                                     <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
-                                    <DonutChart />
+                                    { item.population != 0 ? <DonutChart getGraphicData = {[{ y: item.critial }, { y: item.medium }, { y: item.healthy }]} /> : null }
                                 </View>
                             </TouchableHighlight>
                         </ListItem>
