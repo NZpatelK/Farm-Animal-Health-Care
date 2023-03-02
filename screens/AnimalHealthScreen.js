@@ -3,6 +3,7 @@ import React, { useEffect, useState, useCallback } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { useSharedValue } from 'react-native-reanimated';
 import ListItem from '../components/ListItem';
+import DonutChart from '../components/DonutChart';
 
 export default function AnimalHealthScreen() {
 
@@ -74,12 +75,13 @@ export default function AnimalHealthScreen() {
                         <ListItem item={item} viewableItems={viewableItem}>
                             <TouchableHighlight onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
                                 <View>
-                                <Text>{item.type}</Text>
-                                <Text> Population: {item.population} </Text>
-                                <Text> Overall Health: {item.overallHealth}% </Text>
-                                <Text style={{ color: 'red' }}> Critial: {item.critial}</Text>
-                                <Text style={{ color: '#bf9404' }}> Medium: {item.medium}</Text>
-                                <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
+                                    <Text>{item.type}</Text>
+                                    <Text> Population: {item.population} </Text>
+                                    <Text> Overall Health: {item.overallHealth}% </Text>
+                                    <Text style={{ color: 'red' }}> Critial: {item.critial}</Text>
+                                    <Text style={{ color: '#bf9404' }}> Medium: {item.medium}</Text>
+                                    <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
+                                    <DonutChart />
                                 </View>
                             </TouchableHighlight>
                         </ListItem>
