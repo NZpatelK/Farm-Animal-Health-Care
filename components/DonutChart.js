@@ -41,17 +41,15 @@ export default function DonutChart({getGraphicData}) {
 
         <View style={{ justifyContent: "center"}}>
             <VictoryPie
+                padding={10}
                 animate={{ easing: 'exp' }}
-                width= {200}
-                height={200}
+                width= {150}
+                height={150}
                 colorScale={graphicColor}
                 data={graphicData}
-                padAngle={3}
-                innerRadius={20}
+                padAngle={8}
+                innerRadius={40}
                 labels = {() => null}
-                style={{
-                    
-                }}
             />
 
         </View>

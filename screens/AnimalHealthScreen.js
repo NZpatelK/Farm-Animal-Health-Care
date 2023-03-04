@@ -74,14 +74,21 @@ export default function AnimalHealthScreen() {
                     return (
                         <ListItem item={item} viewableItems={viewableItem}>
                             <TouchableOpacity onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
-                                <View>
-                                    <Text>{item.type}</Text>
-                                    <Text> Population: {item.population} </Text>
-                                    <Text> Overall Health: {item.overallHealth}% </Text>
-                                    <Text style={{ color: 'red' }}> Critial: {item.critial}</Text>
-                                    <Text style={{ color: '#bf9404' }}> Medium: {item.medium}</Text>
-                                    <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
-                                    { item.population != 0 ? <DonutChart getGraphicData = {[{ y: item.critial }, { y: item.medium }, { y: item.healthy }]} /> : null }
+                                <Text style={styles.textHeader}> {item.type} </Text>
+                                <View style={styles.insideCard}>
+
+                                    <View>
+                                        {item.population != 0 ? <DonutChart getGraphicData={[{ y: item.critial }, { y: item.medium }, { y: item.healthy }]} /> : null}
+                                    </View>
+
+                                    <View>
+                                        <Text style={styles.textboxSize}> Population: {item.population} </Text>
+                                        <Text style={styles.textboxSize}> Overall Health: {item.overallHealth}% </Text>
+                                        <Text style={[{ color: 'red' }, styles.textboxSize]}> • Critial: {item.critial}</Text>
+                                        <Text style={[{ color: '#bf9404' }, styles.textboxSize]}> • Medium: {item.medium}</Text>
+                                        <Text style={[{ color: 'green' }, styles.textboxSize]}> • Healthy: {item.healthy}</Text>
+                                    </View>
+
                                 </View>
                             </TouchableOpacity>
                         </ListItem>
@@ -95,10 +102,24 @@ export default function AnimalHealthScreen() {
 
 const styles = StyleSheet.create({
     card: {
-        height: 100,
-        width: '90%',
-        alignSelf: 'center',
-        borderRadius: 15,
-        marginTop: 20,
+        // alignSelf: 'center',
+    },
+    insideCard: {
+        flex: 1,
+        justifyContent: 'space-between',
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 20,
+        paddingBottom:10
+    },
+    textHeader: {
+        textAlign: 'center',
+        fontSize: "24px",
+        fontWeight: "bold",
+        paddingTop: 10
+    },
+    textboxSize: {
+        fontSize: "16px",
+        marginVertical: 5
     }
 })
