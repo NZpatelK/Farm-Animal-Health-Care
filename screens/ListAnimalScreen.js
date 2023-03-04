@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet, Text, View, TouchableHighlight, FlatList } from 'react-native'
+import {StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native'
 import React, { useCallback } from 'react'
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { useSharedValue } from 'react-native-reanimated';
@@ -24,13 +24,13 @@ export default function ListAnimalScreen() {
             renderItem={({ item }) => {
                 return (
                     <ListItem item={item} viewableItems={viewableItem}>
-                        <TouchableHighlight onPress={() => nav.navigate('Animal Detail', { name: item.type + ": " + item.tag_number, item })}>
+                        <TouchableOpacity onPress={() => nav.navigate('Animal Detail', { name: item.type + ": " + item.tag_number, item })}>
                             <View>
                                 <Text>Animal Type: {item.type}</Text>
                                 <Text>Tag number: {item.tag_number}</Text>
                                 <Text>Health: {item.health}%</Text>
                             </View>
-                        </TouchableHighlight>
+                        </TouchableOpacity>
                     </ListItem>
                 )
             }}

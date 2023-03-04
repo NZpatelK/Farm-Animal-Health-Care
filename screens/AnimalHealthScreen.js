@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TouchableHighlight, FlatList } from 'react-native'
+import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState, useCallback } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { useSharedValue } from 'react-native-reanimated';
@@ -71,10 +71,9 @@ export default function AnimalHealthScreen() {
                 style={{ height: "100%" }}
                 onViewableItemsChanged={onViewableItemsChanged}
                 renderItem={({ item }) => {
-                    console.log(item)
                     return (
                         <ListItem item={item} viewableItems={viewableItem}>
-                            <TouchableHighlight onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
+                            <TouchableOpacity onPress={() => nav.navigate('List of Animals', { title: (item.type), fetchData: (item.animalData) })}>
                                 <View>
                                     <Text>{item.type}</Text>
                                     <Text> Population: {item.population} </Text>
@@ -84,7 +83,7 @@ export default function AnimalHealthScreen() {
                                     <Text style={{ color: 'green' }}> Healthy: {item.healthy}</Text>
                                     { item.population != 0 ? <DonutChart getGraphicData = {[{ y: item.critial }, { y: item.medium }, { y: item.healthy }]} /> : null }
                                 </View>
-                            </TouchableHighlight>
+                            </TouchableOpacity>
                         </ListItem>
                     );
                 }}
