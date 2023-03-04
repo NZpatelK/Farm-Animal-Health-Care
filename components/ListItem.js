@@ -34,7 +34,7 @@ export default function ListItem({ item, viewableItems, children }) {
 
 const styles = StyleSheet.create({
     card: {
-        width: '90%',
+        width: '95%',
         backgroundColor: '#78CAD2',
         alignSelf: 'center',
         borderRadius: 15,

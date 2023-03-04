@@ -18,30 +18,45 @@ export default function AnimalDetailScreen() {
 
     return (
         <View>
-            <Text>Tag number: {animalData.tag_number}</Text>
-            <Text>Date of Brith: {animalData.dob}</Text>
-            <Text>Health: {animalData.health}%</Text>
+            <View style={{ margin: 15 }}>
+                <Text style={styles.textboxSize}>Tag number: {animalData.tag_number}</Text>
+                <Text style={styles.textboxSize}>Date of Brith: {animalData.dob}</Text>
+                <Text style={styles.textboxSize}>Health: {animalData.health}%</Text>
+            </View>
 
+            <View style={styles.line} />
+
+            <View >
+                <Text style={{ textAlign: "center", fontSize: 24 }}> Medicial Record History </Text>
+            </View>
 
             {Array.isArray(animalData.medicalHistory) && (animalData.medicalHistory.length != 0) ? (
                 <FlatList
                     data={animalData.medicalHistory}
-                    style={{ height: "100%" }}
                     onViewableItemsChanged={onViewableItemsChanged}
                     renderItem={({ item }) => {
                         return (
                             <ListItem item={item} viewableItems={viewableItem}>
                                 <TouchableOpacity onPress={() => setModalData(item.medicalResaon) & setVisible(true)}>
-                                    <View>
-                                        <Text>Date: {item.recordDate}</Text>
-                                        <Text>Name: {item.name}</Text>
-                                        <Text>click for more Information</Text>
+                                    <View style={styles.insideCard}>
+                                        <Text style={styles.textboxSize}>Date: {item.recordDate}</Text>
+                                        <Text style={styles.textboxSize}>Name: {item.name}</Text>
+                                        <Text style={styles.textboxSize}>medicalResaon: this animal is experiencing bloating and digestive discomfort, possibly indicating rumen acidosis.</Text>
+                                        <Text style={[{ textAlign: "center", marginTop: 10, color: "blue" }, styles.textboxSize]}>click for more Information</Text>
                                     </View>
                                 </TouchableOpacity>
                             </ListItem>
                         )
                     }}
-                />) : <Text> No medicial record</Text>}
+                />) : (
+
+                <View style={styles.subHeaderTextContainer}>
+                    <Text style={styles.subHeaderText}>No medicial record</Text>
+                </View>
+
+
+
+            )}
 
             <ModalPoup visible={visible}>
                 <View style={{ alignItems: 'center' }}>
@@ -63,5 +78,30 @@ const styles = StyleSheet.create({
         borderColor: "black",
         width: "95%",
         borderWidth: 5
+    },
+    textboxSize: {
+        fontSize: "16px",
+        marginVertical: 5,
+    },
+    insideCard: {
+        padding: 20
+    },
+    line: {
+        alignSelf: "center",
+        borderBottomColor: 'black',
+        borderBottomWidth: 2,
+        width: "95%",
+        marginVertical: 10,
+    },
+    subHeaderTextContainer: {
+       // alignSelf:"center",
+        justifyContent:'center',
+        height: "50%",
+        alignItems: "center"
+    },
+    subHeaderText: {
+        fontSize: 20,
+        fontWeight: 'bold'
     }
+
 })

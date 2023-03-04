@@ -19,16 +19,15 @@ export default function ListAnimalScreen() {
      
         <FlatList
             data={animalData}
-            style={{ height: "100%" }}
             onViewableItemsChanged={onViewableItemsChanged}
             renderItem={({ item }) => {
                 return (
                     <ListItem item={item} viewableItems={viewableItem}>
                         <TouchableOpacity onPress={() => nav.navigate('Animal Detail', { name: item.type + ": " + item.tag_number, item })}>
-                            <View>
-                                <Text>Animal Type: {item.type}</Text>
-                                <Text>Tag number: {item.tag_number}</Text>
-                                <Text>Health: {item.health}%</Text>
+                            <View style={styles.insideCard}>
+                                {/* <Text style={styles.textboxSize}>Animal Type: {item.type}</Text> */}
+                                <Text style={styles.textboxSize}>Tag number: {item.tag_number}</Text>
+                                <Text style={styles.textboxSize}>Health: {item.health}%</Text>
                             </View>
                         </TouchableOpacity>
                     </ListItem>
@@ -40,11 +39,12 @@ export default function ListAnimalScreen() {
 }
 
 const styles = StyleSheet.create({
-    card: {
-        margin: 5,
-        padding: 10,
-        borderColor: "black",
-        width: "95%",
-        borderWidth: 5
-    }
+    textboxSize: {
+        fontSize: "16px",
+        marginVertical: 5
+    },
+    insideCard: {
+        padding: 20
+
+    },
 })
