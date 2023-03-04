@@ -2,7 +2,7 @@ import { Modal, StyleSheet, View } from 'react-native'
 import React, { useEffect, useRef, useState } from 'react'
 import Animated from 'react-native-reanimated';
 
-export default function ModalPoup() {
+export default function ModalPoup({ visible, children }) {
     const [showModal, setShowModal] = useState(visible);
     const scaleValue = useRef(new Animated.Value(1)).current;
 
