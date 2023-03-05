@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native'
 import React, { useCallback } from 'react'
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { useSharedValue } from 'react-native-reanimated';
@@ -14,33 +14,34 @@ export default function ListAnimalScreen() {
         viewableItem.value = viewableItems;
     }, []);
 
-
     return (
-     
-        <FlatList
-            data={animalData}
-            onViewableItemsChanged={onViewableItemsChanged}
-            renderItem={({ item }) => {
-                return (
-                    <ListItem item={item} viewableItems={viewableItem}>
-                        <TouchableOpacity onPress={() => nav.navigate('Animal Detail', { name: item.type + ": " + item.tag_number, item })}>
-                            <View style={styles.insideCard}>
-                                {/* <Text style={styles.textboxSize}>Animal Type: {item.type}</Text> */}
-                                <Text style={styles.textboxSize}>Tag number: {item.tag_number}</Text>
-                                <Text style={styles.textboxSize}>Health: {item.health}%</Text>
-                            </View>
-                        </TouchableOpacity>
-                    </ListItem>
-                )
-            }}
-        />
+        <View>
+            <FlatList
+                data={animalData}
+                style={{ height: "90%" }}
+                onViewableItemsChanged={onViewableItemsChanged}
+                renderItem={({ item }) => {
+                    return (
+                        <ListItem item={item} viewableItems={viewableItem}>
+                            <TouchableOpacity onPress={() => nav.navigate('Animal Detail', { name: item.type + ": " + item.tag_number, item })}>
+                                <View style={styles.insideCard}>
+                                    {/* <Text style={styles.textboxSize}>Animal Type: {item.type}</Text> */}
+                                    <Text style={styles.textboxSize}>Tag number: {item.tag_number}</Text>
+                                    <Text style={styles.textboxSize}>Health: {item.health}%</Text>
+                                </View>
+                            </TouchableOpacity>
+                        </ListItem>
+                    )
+                }}
+            />
+        </View>
 
     )
 }
 
 const styles = StyleSheet.create({
     textboxSize: {
-        fontSize: "16px",
+        fontSize: 16,
         marginVertical: 5
     },
     insideCard: {

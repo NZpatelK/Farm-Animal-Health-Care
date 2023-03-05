@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { VictoryPie, VictoryLabel } from 'victory-native';
 import { Svg } from 'react-native-svg';
 
-const graphicColor = ['red', '#bf9404', 'green']; // Colors
+const graphicColor = ['red', '#e6e300', '#00cc10']; // Colors
 //const wantedGraphicData = [{ y: 10 }, { y: 50 }, { y: 40 }]; // Data that we want to display
 //const wantedGraphicData = [{ x: 'Liquid', y: 35 }, { x: 'Iced', y: 90 }, { x: 'Total', y: 55 }];
 const defaultGraphicData = [{ y: 0 }, { y: 0 }, { y: 100 }];

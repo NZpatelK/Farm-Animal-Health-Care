@@ -1,6 +1,7 @@
 import { StyleSheet} from 'react-native'
 import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated'
 import React from 'react'
+import { LinearGradient } from 'react-native-svg';
 
 export default function ListItem({ item, viewableItems, children }) {
 
@@ -35,9 +36,13 @@ export default function ListItem({ item, viewableItems, children }) {
 const styles = StyleSheet.create({
     card: {
         width: '95%',
-        backgroundColor: '#78CAD2',
+        backgroundColor: '#f7f7f7',
         alignSelf: 'center',
         borderRadius: 15,
         marginTop: 20,
+        shadowColor: '#000000',
+        shadowOffset: {width: 10, height: 12},
+        shadowOpacity: 0.1,
+        shadowRadius: 10,
     }
 })

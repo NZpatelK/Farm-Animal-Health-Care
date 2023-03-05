@@ -1,12 +1,13 @@
 import { Button, FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import React, { useCallback, useState } from 'react'
-import { useRoute } from '@react-navigation/native';
+import React, { useCallback, useEffect, useState } from 'react'
+import { useRoute, useNavigation } from '@react-navigation/native';
 import { useSharedValue } from 'react-native-reanimated';
 import ListItem from '../components/ListItem';
 import ModalPoup from '../components/ModalPoup';
 
 export default function AnimalDetailScreen() {
     const route = useRoute();
+    const nav = useNavigation();
     const animalData = route.params.item;
     const viewableItem = useSharedValue([]);
     const [modalData, setModalData] = useState("hello");
@@ -33,6 +34,7 @@ export default function AnimalDetailScreen() {
             {Array.isArray(animalData.medicalHistory) && (animalData.medicalHistory.length != 0) ? (
                 <FlatList
                     data={animalData.medicalHistory}
+                    style={{ height: "70%" }}
                     onViewableItemsChanged={onViewableItemsChanged}
                     renderItem={({ item }) => {
                         return (
@@ -42,7 +44,7 @@ export default function AnimalDetailScreen() {
                                         <Text style={styles.textboxSize}>Date: {item.recordDate}</Text>
                                         <Text style={styles.textboxSize}>Name: {item.name}</Text>
                                         <Text style={styles.textboxSize}>medicalResaon: this animal is experiencing bloating and digestive discomfort, possibly indicating rumen acidosis.</Text>
-                                        <Text style={[{ textAlign: "center", marginTop: 10, color: "blue" }, styles.textboxSize]}>click for more Information</Text>
+                                        <Text style={[{ textAlign: "center", marginTop: 10, color: "#005b99" }, styles.textboxSize]}>click for more Information</Text>
                                     </View>
                                 </TouchableOpacity>
                             </ListItem>
@@ -61,7 +63,9 @@ export default function AnimalDetailScreen() {
             <ModalPoup visible={visible}>
                 <View style={{ alignItems: 'center' }}>
                     <Text>{modalData}</Text>
-                    <Button title="Close" onPress={() => setVisible(false)} />
+                    <TouchableOpacity onPress={() => setVisible(false)}>
+                        <Text style={{color: "#005b99", marginTop: 20}}>Close</Text>
+                    </TouchableOpacity>
                 </View>
             </ModalPoup>
 
@@ -80,7 +84,7 @@ const styles = StyleSheet.create({
         borderWidth: 5
     },
     textboxSize: {
-        fontSize: "16px",
+        fontSize: 16,
         marginVertical: 5,
     },
     insideCard: {
@@ -94,8 +98,8 @@ const styles = StyleSheet.create({
         marginVertical: 10,
     },
     subHeaderTextContainer: {
-       // alignSelf:"center",
-        justifyContent:'center',
+        // alignSelf:"center",
+        justifyContent: 'center',
         height: "50%",
         alignItems: "center"
     },

@@ -68,7 +68,7 @@ export default function AnimalHealthScreen() {
         <View>
             <FlatList
                 data={outputAnimalsInfo()}
-                style={{ height: "100%" }}
+                style={{ height: "90%" }}
                 onViewableItemsChanged={onViewableItemsChanged}
                 renderItem={({ item }) => {
                     return (
@@ -82,11 +82,20 @@ export default function AnimalHealthScreen() {
                                     </View>
 
                                     <View>
-                                        <Text style={styles.textboxSize}> Population: {item.population} </Text>
-                                        <Text style={styles.textboxSize}> Overall Health: {item.overallHealth}% </Text>
-                                        <Text style={[{ color: 'red' }, styles.textboxSize]}> • Critial: {item.critial}</Text>
-                                        <Text style={[{ color: '#bf9404' }, styles.textboxSize]}> • Medium: {item.medium}</Text>
-                                        <Text style={[{ color: 'green' }, styles.textboxSize]}> • Healthy: {item.healthy}</Text>
+                                        <Text style={styles.textboxSize}>Population: {item.population} </Text>
+                                        <Text style={styles.textboxSize}>Overall Health: {item.overallHealth}% </Text>
+                                        <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10 }}>
+                                            <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: 'red', marginRight: 5 }} />
+                                            <Text style={{ fontSize: 16 }}>Critial: {item.critial}</Text>
+                                        </View>
+                                        <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 15 }}>
+                                            <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: '#e6e300', marginRight: 5 }} />
+                                            <Text style={{ fontSize: 16 }}>Medium: {item.medium}</Text>
+                                        </View>
+                                        <View style={{ flexDirection: 'row', alignItems: 'center',  marginTop: 15 }}>
+                                            <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: '#00cc10', marginRight: 5 }} />
+                                            <Text style={{ fontSize: 16 }}>Healthy: {item.healthy}</Text>
+                                        </View>
                                     </View>
 
                                 </View>
@@ -110,16 +119,16 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 20,
-        paddingBottom:10
+        paddingBottom: 10
     },
     textHeader: {
         textAlign: 'center',
-        fontSize: "24px",
+        fontSize: 24,
         fontWeight: "bold",
         paddingTop: 10
     },
     textboxSize: {
-        fontSize: "16px",
+        fontSize: 16,
         marginVertical: 5
     }
 })
