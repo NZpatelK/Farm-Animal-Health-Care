@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { StyleSheet, View, Button } from "react-native";
-import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
@@ -55,18 +55,20 @@ export default function AnimatedRingExample() {
     return animalData[randomIndex];
   };
 
-  useEffect(() => {
-    if (timeoutId) {
-      clearTimeout(timeoutId);
-    }
-
-    const newTimeoutId = setTimeout(() => {
-      const item = selectRandomItem();
-      navigation.navigate('Animals', { screen:"Animal Detail", params: {name: item.type + ": " + item.tag_number, item }});
-    }, 3000);
-
-    setTimeoutId(newTimeoutId);
-  },[]);
+  useFocusEffect(
+    useCallback(() => {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+  
+      const newTimeoutId = setTimeout(() => {
+        const item = selectRandomItem();
+        navigation.navigate('Animals', { screen:"Animal Detail", params: {name: item.type + ": " + item.tag_number, item }});
+      }, 3000);
+  
+      setTimeoutId(newTimeoutId);
+    },[])
+  );
 
   return (
     <View

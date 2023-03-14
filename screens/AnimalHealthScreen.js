@@ -20,15 +20,6 @@ export default function AnimalHealthScreen() {
         viewableItem.value = viewableItems;
     }, []);
 
-    const avreageOverallHealth = (petData) => {
-
-        const totalValue = petData.reduce((sum, currentValue) => {
-            return sum + currentValue.health;
-        }, 0);
-
-        return totalValue / petData.length;
-    }
-
     const healthCategory = (data, minVal, maxVal) => {
 
         return data.filter(item => {
@@ -50,7 +41,6 @@ export default function AnimalHealthScreen() {
             animalObject.id = index;
             animalObject.type = item;
             animalObject.population = fetchData.length;
-            animalObject.overallHealth = avreageOverallHealth(fetchData).toFixed(0)
             animalObject.critial = healthCategory(fetchData, 20, 40).length;
             animalObject.medium = healthCategory(fetchData, 41, 70).length;
             animalObject.healthy = healthCategory(fetchData, 71, 100).length;
@@ -83,7 +73,6 @@ export default function AnimalHealthScreen() {
 
                                     <View>
                                         <Text style={styles.textboxSize}>Population: {item.population} </Text>
-                                        <Text style={styles.textboxSize}>Overall Health: {item.overallHealth}% </Text>
                                         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10 }}>
                                             <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: 'red', marginRight: 5 }} />
                                             <Text style={{ fontSize: 16 }}>Critial: {item.critial}</Text>
