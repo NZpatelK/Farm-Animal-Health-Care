@@ -2,6 +2,15 @@ import { Modal, StyleSheet, View } from 'react-native'
 import React, { useEffect, useRef, useState } from 'react'
 import Animated from 'react-native-reanimated';
 
+
+/*
+This class is Modal pop up. 
+When user click something then modal will popup
+
+visible = this value is boolean. when user click then visible will be true then modal will pop up. 
+When user close the modal then visible will false and modal will close. 
+*/
+
 export default function ModalPoup({ visible, children }) {
     const [showModal, setShowModal] = useState(visible);
     const scaleValue = useRef(new Animated.Value(1)).current;
@@ -10,6 +19,7 @@ export default function ModalPoup({ visible, children }) {
         toggleModal();
     }, [visible]);
 
+    // This fuction is to control the modal when user press open or close.
     const toggleModal = () => {
         if (visible) {
             setShowModal(true);
@@ -27,13 +37,10 @@ export default function ModalPoup({ visible, children }) {
             }).start();
         }
     };
+    
     return (
         <Modal transparent visible={showModal}>
             <View style={styles.modalBackGround}>
-                {/* <Animated.View
-                    style={[styles.modalContainer, { transform: [{ scale: scaleValue }] }]}>
-                    {children}
-                </Animated.View> */}
                 <View style={styles.modalContainer}>
                     {children}
                 </View>
