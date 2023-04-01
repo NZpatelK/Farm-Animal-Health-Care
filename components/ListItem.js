@@ -1,10 +1,17 @@
 import { StyleSheet} from 'react-native'
 import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated'
 import React from 'react'
-import { LinearGradient } from 'react-native-svg';
+
+/* 
+This class is create the list with animation processing.
+item = entire of the data
+viewable = get amount of data which is able to display on screen becuase screen has limit space. it is part animation process
+children =  display data from parent pass to here. 
+*/
 
 export default function ListItem({ item, viewableItems, children }) {
 
+    // This funcation make Aniamted proccess. 
     const rStyle = useAnimatedStyle(() => {
         const isVisible = Boolean(
             viewableItems.value
