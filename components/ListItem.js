@@ -7,6 +7,8 @@ This class is create the list with animation processing.
 item = entire of the data
 viewable = get amount of data which is able to display on screen becuase screen has limit space. it is part animation process
 children =  display data from parent pass to here. 
+
+Amination processing is when user scroll down or up then you can see new item pop up in the list with amination processing. 
 */
 
 export default function ListItem({ item, viewableItems, children }) {
