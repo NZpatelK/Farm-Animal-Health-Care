@@ -5,21 +5,27 @@ import { useSharedValue } from 'react-native-reanimated';
 import ListItem from '../components/ListItem';
 import DonutChart from '../components/DonutChart';
 
+/*
+This screen is show information of each type of animal.
+*/
+
 export default function AnimalHealthScreen() {
 
     const nav = useNavigation();
     const [animalData, setAnimalData] = useState([{}]);
     const viewableItem = useSharedValue([]);
-    const [animalsType] = useState(["Cow", "Pig", "Sheep"]);
+    const [animalsType] = useState(["Cow", "Pig", "Sheep"]); //Will add more type of animal in the future. 
 
     useEffect(() => {
-        setAnimalData(require("../data/AnimalData.json"));
+        setAnimalData(require("../data/AnimalData.json")); //future will fetch data from the databse by using API.
     }, []);
 
     const onViewableItemsChanged = useCallback(({ viewableItems }) => {
         viewableItem.value = viewableItems;
     }, []);
 
+    //This function is to sort the data into the right Health category. 
+    //There are three differet health type. Those types are critial, medium, healthy
     const healthCategory = (data, minVal, maxVal) => {
 
         return data.filter(item => {
@@ -27,12 +33,16 @@ export default function AnimalHealthScreen() {
         });
     }
 
+
+    //This is fetch all the data of the specifc anaimal type and calucate the total of the specifc animal type.
+    // Output the display information about the specific animal type.      
     const outputAnimalsInfo = () => {
 
         const animalArray = [];
 
         animalsType.map((item, index) => {
 
+            //This is get all the data of specifc anaimal type.
             const fetchData = animalData.filter(data => {
                 return data.type === item;
             });
@@ -73,14 +83,17 @@ export default function AnimalHealthScreen() {
 
                                     <View>
                                         <Text style={styles.textboxSize}>Population: {item.population} </Text>
+
                                         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 10 }}>
                                             <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: 'red', marginRight: 5 }} />
                                             <Text style={{ fontSize: 16 }}>Critial: {item.critial}</Text>
                                         </View>
+
                                         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 15 }}>
                                             <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: '#e6e300', marginRight: 5 }} />
                                             <Text style={{ fontSize: 16 }}>Medium: {item.medium}</Text>
                                         </View>
+
                                         <View style={{ flexDirection: 'row', alignItems: 'center',  marginTop: 15 }}>
                                             <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: '#00cc10', marginRight: 5 }} />
                                             <Text style={{ fontSize: 16 }}>Healthy: {item.healthy}</Text>
@@ -99,9 +112,6 @@ export default function AnimalHealthScreen() {
 }
 
 const styles = StyleSheet.create({
-    card: {
-        // alignSelf: 'center',
-    },
     insideCard: {
         flex: 1,
         justifyContent: 'space-between',
