@@ -5,6 +5,10 @@ import { useSharedValue } from 'react-native-reanimated';
 import ListItem from '../components/ListItem';
 import ModalPoup from '../components/ModalPoup';
 
+/*
+This screen is display the fully data of the specifc animals
+*/
+
 export default function AnimalDetailScreen() {
     const route = useRoute();
     const nav = useNavigation();
@@ -18,7 +22,9 @@ export default function AnimalDetailScreen() {
     }, []);
 
     return (
+        
         <View>
+            {/* Hearder Section */}
             <View style={{ margin: 15 }}>
                 <Text style={styles.textboxSize}>Tag number: {animalData.tag_number}</Text>
                 <Text style={styles.textboxSize}>Date of Brith: {animalData.dob}</Text>
@@ -26,6 +32,8 @@ export default function AnimalDetailScreen() {
             </View>
 
             <View style={styles.line} />
+
+            {/* List of history the medical */}
 
             <View >
                 <Text style={{ textAlign: "center", fontSize: 24 }}> Medicial Record History </Text>
@@ -60,6 +68,7 @@ export default function AnimalDetailScreen() {
 
             )}
 
+            {/* Modal pop up */}
             <ModalPoup visible={visible}>
                 <View style={{ alignItems: 'center' }}>
                     <Text>{modalData}</Text>
