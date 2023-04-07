@@ -5,7 +5,10 @@ import AnimalHealthScreen from './screens/AnimalHealthScreen';
 import ListAnimalScreen from './screens/ListAnimalScreen';
 import AnimalDetailScreen from './screens/AnimalDetailScreen';
 
-
+/**
+ * This is stack navigator in the animal tab page 
+ * 
+ */
 
 export default function AnimalNav() {
  
