@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { StyleSheet, View, Button } from "react-native";
+import { StyleSheet, View} from "react-native";
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import Animated, {
   useAnimatedStyle,
@@ -9,6 +9,16 @@ import Animated, {
   withTiming,
   interpolate,
 } from "react-native-reanimated";
+
+/**
+ * This class is to create a ring signal when user try to scan the animal 
+ * then ring signal animation while scanning and fetch data about specific animal 
+ * 
+ * Currently they set timer for tempoery while when get acutal product to connect the animal 
+ * then the timer will change with acutal scanner feature. 
+ * 
+ * @returns animation the ring signal
+ */
 
 const Ring = ({ delay }) => {
   const ring = useSharedValue(0);
@@ -24,12 +34,13 @@ const Ring = ({ delay }) => {
     };
   });
 
+
   useEffect(() => {
     const animation = withDelay(
       delay,
       withRepeat(
         withTiming(1, {
-          duration: 4000,
+          duration: 4000, // This is temperory to set timer.
         }),
         -1,
         false
@@ -47,11 +58,11 @@ const Ring = ({ delay }) => {
 
 export default function AnimatedRingExample() {
   const navigation = useNavigation();
-  const [animalData, setAnimalData] = useState(require("../data/AnimalData.json"));
+  const [animalData] = useState(require("../data/AnimalData.json"));
   const [timeoutId, setTimeoutId] = useState(null);
 
   const selectRandomItem = () => {
-    const randomIndex = Math.floor(Math.random() * animalData.length);
+    const randomIndex = Math.floor(Math.random() * animalData.length); // This is random generate to get the data from json. in the future will get acutal data from scan the anumal.
     return animalData[randomIndex];
   };
 
@@ -79,6 +90,7 @@ export default function AnimatedRingExample() {
         flexDirection: "column",
       }}
     >
+      {/* This ring tag has different size of the ring. each tag will scale the ring. 0 = small ring and 3500 = bigger ring*/}
       <Ring delay={0} />
       <Ring delay={500} />
       <Ring delay={1000} />
