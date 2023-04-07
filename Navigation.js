@@ -5,6 +5,10 @@ import DashboardScreen from "./screens/DashboardScreen";
 import AnimalNav from "./AnimalNav";
 import ScanScreen from "./screens/ScanScreen";
 
+/**
+ * This is main page with tab Navigator at the button of the screen
+ */
+
 const Tab = createBottomTabNavigator();
 
 const CustomTabBarButton = ({ children, onPress }) => (
@@ -36,17 +40,14 @@ export default function Navigation() {
                 tabBarShowLabel: false,
                 tabBarStyle: {
                     position: 'absolute',
-                    // bottom: 25,
-                    // left: 20,
-                    // right: 20,
                     elevation: 0,
                     backgroundColor: '#ffffff',
-                    // borderRadius: 15,
                     height: 80,
                     ...styles.shadow
                 }
             }}>
 
+            {/* Dashboard tab button function*/}
             <Tab.Screen name="dashboard" component={DashboardScreen}
                 options={{
                     tabBarIcon: ({ focused }) => (
@@ -65,7 +66,8 @@ export default function Navigation() {
                         </View>
                     )
                 }} />
-                
+
+            {/* Scan tab button function*/}
             <Tab.Screen name="Scan" component={ScanScreen}
              options={{
                 tabBarIcon: () => (
@@ -85,7 +87,7 @@ export default function Navigation() {
             }}
              />
 
-
+            {/* Animals tab button function*/}
             <Tab.Screen name="Animals" component={AnimalNav}
                 options={{
                     headerShown: false,
