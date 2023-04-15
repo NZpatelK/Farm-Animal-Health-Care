@@ -9,3 +9,6 @@ The application I created operates similarly to a smartwatch health system, enab
 My primary goal for this project was to develop an intuitive and easy-to-use mobile application that simplifies the process of accessing and navigating animal health data for farmers. 📱 I recognised that farmers are often juggling multiple tasks, so I wanted to create an application that could save them time and streamline their daily operations. My hope is that this contribution will ultimately lead to the enhancement of animal welfare and the overall farming industry. 🚜🌱
 
 I am confident that my passion for effecting change and my eagerness to contribute to the betterment of society will enable me to make a valuable contribution to any future employer. This project demonstrated my ability to identify complex problems and develop innovative solutions while showcasing my skills in user interface design and development. 🚀
+
+#### Click on the video icon to view the demonstration video of my application. 👀
+[<img src='https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/512/external-video-news-xnimrodx-lineal-gradient-xnimrodx.png' width='100'>](https://www.linkedin.com/posts/karan-h-patel_development-learning-future-activity-7040776123697303552-RydY?utm_source=share&utm_medium=member_desktop)
